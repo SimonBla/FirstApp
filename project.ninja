@@ -1,0 +1,3125 @@
+{
+  "name": "BlaBlaMelle",
+  "description": null,
+  "contentType": "json",
+  "fileVersion": 3,
+  "type": "AndroidProject",
+  "theme": "napkin",
+  "contents": {
+    "id": 1888075,
+    "appName": "BlaBlaMelle",
+    "saveTime": "2015-06-09T18:52:32.093Z",
+    "lastNotificationId": 0,
+    "theme": "napkin",
+    "isCrazy": true,
+    "defaultFontFamily": "TomsHandwritten",
+    "pageGroups": [
+      {
+        "type": "sketch.framework.PageGroup",
+        "properties": {
+          "id": 1,
+          "name": "Default group",
+          "pageIds": [
+            "65e6460d-f618-ebe7-fbbc-f6ee47d5fcc9",
+            "82fa8e6e-88d5-fd42-3dbb-1a8c9f1d21c1",
+            "c7c2526b-4593-7fe6-aaf7-7fbb10e7b3af"
+          ]
+        }
+      }
+    ],
+    "satelliteProjects": [],
+    "extraParameters": null,
+    "pages": [
+      {
+        "version": 1,
+        "id": "65e6460d-f618-ebe7-fbbc-f6ee47d5fcc9",
+        "type": "sketch.ui.pages.PortableDevicePage",
+        "name": "Garde Manger",
+        "background": {
+          "value": null,
+          "type": null,
+          "lineWidth": 0,
+          "__type__": "sketch.framework.Brush"
+        },
+        "children": [
+          {
+            "type": "sketch.ui.common.PortableDevice",
+            "version": 1,
+            "id": "b4563fd2-2ba6-8f2a-c146-fece50398b81",
+            "properties": {
+              "width": 3130,
+              "height": 2320,
+              "background.value": "rgba(150,198,230,1)",
+              "background.type": "color",
+              "background.__type__": "sketch.framework.Brush"
+            },
+            "children": [
+              {
+                "type": "sketch.framework.Rectangle",
+                "version": 3,
+                "id": "ad7e1376-0914-7462-8412-d13d8c66b786",
+                "properties": {
+                  "left": -1340,
+                  "top": -760
+                }
+              },
+              {
+                "type": "sketch.ui.android.ActionBar",
+                "version": 1,
+                "id": "aa4d4ffd-d6e4-164c-c13e-a6413c2e806a",
+                "properties": {
+                  "name": "Action Bar [746]",
+                  "left": 0,
+                  "top": 0,
+                  "enableGroupLocking": true,
+                  "templateId": "ui.android.templates.ActionBarTemplate",
+                  "width": 450,
+                  "height": 48,
+                  "backgroundBrush.value": "rgba(224,224,224,1)",
+                  "backgroundBrush.type": "color",
+                  "backgroundBrush.__type__": "sketch.framework.Brush"
+                },
+                "tags": "Bar",
+                "children": [
+                  {
+                    "type": "sketch.ui.common.Icon",
+                    "version": 6,
+                    "id": "25e3bc62-3aa8-442e-753b-6609f5af0d85",
+                    "properties": {
+                      "width": 30,
+                      "height": 30,
+                      "name": "Icon [102]",
+                      "left": 420,
+                      "top": 10,
+                      "anchor.left": false,
+                      "anchor.right": true,
+                      "anchor.__type__": "sketch.framework.Anchor",
+                      "backgroundBrush.value": "default.text",
+                      "backgroundBrush.type": "resource",
+                      "backgroundBrush.lineWidth": 0,
+                      "backgroundBrush.__type__": "sketch.framework.Brush",
+                      "borderBrush.lineWidth": 0,
+                      "borderBrush.__type__": "sketch.framework.Brush",
+                      "source.name": "NavigationMore",
+                      "source.__type__": "sketch.framework.ImageSourceFont",
+                      "clipSelf": true
+                    }
+                  },
+                  {
+                    "type": "sketch.ui.common.Icon",
+                    "version": 6,
+                    "id": "d3768c18-82df-7260-0d45-091e6b4b62cc",
+                    "properties": {
+                      "width": 25,
+                      "height": 42,
+                      "name": "Icon [2414]",
+                      "top": 5,
+                      "clipSelf": true,
+                      "source.name": "CollectionsSortBySize",
+                      "source.__type__": "sketch.framework.ImageSourceFont",
+                      "pageLink": "c7c2526b-4593-7fe6-aaf7-7fbb10e7b3af"
+                    }
+                  },
+                  {
+                    "type": "sketch.ui.common.Icon",
+                    "version": 6,
+                    "id": "e12f9c3f-3179-096c-b301-70ca9de814b8",
+                    "properties": {
+                      "width": 36,
+                      "height": 48,
+                      "name": "Icon [5129]",
+                      "left": 25,
+                      "source.width": 56,
+                      "source.height": 57,
+                      "source.url": "https://ninjastorage.blob.core.windows.net/companyfiles/1887955/a9e8f8da-f093-412c-ab97-8c60e447d5e0.png",
+                      "source.__type__": "sketch.framework.ImageSourceURL",
+                      "clipSelf": true
+                    }
+                  },
+                  {
+                    "type": "sketch.ui.common.Label",
+                    "version": 3,
+                    "id": "0656e392-9f3d-2e91-9241-1c7373ae5736",
+                    "properties": {
+                      "width": 136,
+                      "height": 48,
+                      "name": "Label [5148]",
+                      "left": 66,
+                      "text": "Mon garde manger",
+                      "textVerticalAlign": "middle"
+                    }
+                  }
+                ],
+                "states": {
+                  "default": {
+                    "properties": {}
+                  }
+                }
+              },
+              {
+                "type": "sketch.ui.android.List",
+                "version": 1,
+                "id": "b19e7d2f-60cb-9e10-e266-82c4782dafd0",
+                "properties": {
+                  "height": 486,
+                  "name": "List [1426]",
+                  "left": 0,
+                  "top": 278,
+                  "dropPositioning": "vertical",
+                  "enableGroupLocking": true,
+                  "templateId": "ui.android.templates.ListTemplate",
+                  "width": 450,
+                  "backgroundBrush.value": "rgba(240,240,240,1)",
+                  "backgroundBrush.type": "color",
+                  "backgroundBrush.__type__": "sketch.framework.Brush"
+                },
+                "tags": "List",
+                "children": [
+                  {
+                    "type": "sketch.ui.android.ListItem",
+                    "version": 1,
+                    "id": "1ed834bc-bd1e-a8f6-6ed0-c2e93e0b10ae",
+                    "properties": {
+                      "name": "List item [274]",
+                      "left": 0,
+                      "top": 0,
+                      "horizontalAlignment": "stretch",
+                      "enableGroupLocking": true,
+                      "templateId": "ui.android.templates.ListItemTemplate",
+                      "backgroundBrush.value.sliders": [
+                        [
+                          0,
+                          "rgba(255,255,255,1)"
+                        ],
+                        [
+                          100,
+                          "rgba(178,222,166,1)"
+                        ],
+                        [
+                          10,
+                          "#f0f0f0"
+                        ],
+                        [
+                          16,
+                          "#f0f0f0"
+                        ]
+                      ],
+                      "backgroundBrush.value.direction": "down",
+                      "backgroundBrush.type": "gradient",
+                      "backgroundBrush.__type__": "sketch.framework.Brush"
+                    },
+                    "tags": "ListItem",
+                    "children": [
+                      {
+                        "type": "sketch.ui.common.Label",
+                        "version": 3,
+                        "id": "ca6d8da3-94fe-04fd-46f4-8b72b35eabde",
+                        "properties": {
+                          "width": 180,
+                          "height": 25,
+                          "name": "Label [2524]",
+                          "left": 74,
+                          "top": 15,
+                          "anchor.__type__": "sketch.framework.Anchor",
+                          "backgroundBrush.lineWidth": 0,
+                          "backgroundBrush.__type__": "sketch.framework.Brush",
+                          "borderBrush.lineWidth": 0,
+                          "borderBrush.__type__": "sketch.framework.Brush",
+                          "text": "Mardi - Fredo",
+                          "font.size": 28,
+                          "font.bold": true,
+                          "font.color.value": "default.text",
+                          "font.color.type": "resource",
+                          "font.color.__type__": "sketch.framework.Brush",
+                          "font.__type__": "sketch.framework.Font"
+                        }
+                      },
+                      {
+                        "type": "sketch.ui.common.Label",
+                        "version": 3,
+                        "id": "3f9150c1-1276-5330-af6c-e88d9404bca7",
+                        "properties": {
+                          "width": 176,
+                          "height": 24,
+                          "name": "Label [2525]",
+                          "left": 83,
+                          "top": 40,
+                          "anchor.__type__": "sketch.framework.Anchor",
+                          "backgroundBrush.lineWidth": 0,
+                          "backgroundBrush.__type__": "sketch.framework.Brush",
+                          "borderBrush.lineWidth": 0,
+                          "borderBrush.__type__": "sketch.framework.Brush",
+                          "text": "Soupe façon kebab",
+                          "font.size": 28,
+                          "font.color.value": "default.text",
+                          "font.color.type": "resource",
+                          "font.color.__type__": "sketch.framework.Brush",
+                          "font.__type__": "sketch.framework.Font",
+                          "multiLine": true
+                        }
+                      },
+                      {
+                        "type": "sketch.ui.common.Icon",
+                        "version": 6,
+                        "id": "7f135fdd-932e-1348-d4b8-dfb3ae198cf4",
+                        "properties": {
+                          "width": 40,
+                          "height": 40,
+                          "name": "Icon [7f135fdd-932e-1348-d4b8-dfb3ae198cf4]",
+                          "left": 394,
+                          "top": 7,
+                          "source.name": "NavigationAccept",
+                          "source.__type__": "sketch.framework.ImageSourceFont",
+                          "clipSelf": true
+                        }
+                      },
+                      {
+                        "type": "sketch.ui.common.Image",
+                        "version": 6,
+                        "id": "fce41c77-b2a2-56b1-f541-35bf0a89b531",
+                        "properties": {
+                          "width": 50,
+                          "height": 50,
+                          "left": 14,
+                          "top": 7,
+                          "source.width": 56,
+                          "source.height": 64,
+                          "source.url": "https://cdn0.iconfinder.com/data/icons/shift-avatar/32/Jonathan-64.png",
+                          "source.__type__": "sketch.framework.ImageSourceURL",
+                          "clipSelf": true
+                        }
+                      }
+                    ],
+                    "states": {
+                      "default": {
+                        "properties": {}
+                      }
+                    }
+                  },
+                  {
+                    "type": "sketch.ui.android.ListItem",
+                    "version": 1,
+                    "id": "bf8593d7-1d41-73ce-16ea-5442128a743c",
+                    "properties": {
+                      "name": "List item [274]",
+                      "left": 0,
+                      "top": 65,
+                      "horizontalAlignment": "stretch",
+                      "enableGroupLocking": true,
+                      "templateId": "ui.android.templates.ListItemTemplate",
+                      "width": 450,
+                      "height": 64,
+                      "backgroundBrush.value.sliders": [
+                        [
+                          0,
+                          "rgba(255,255,255,1)"
+                        ]
+                      ],
+                      "backgroundBrush.value.direction": "down",
+                      "backgroundBrush.type": "gradient",
+                      "backgroundBrush.__type__": "sketch.framework.Brush"
+                    },
+                    "tags": "ListItem",
+                    "children": [
+                      {
+                        "type": "sketch.ui.common.Label",
+                        "version": 3,
+                        "id": "bada78c9-c605-fdb4-1d06-0cebc72da186",
+                        "properties": {
+                          "width": 180,
+                          "height": 25,
+                          "name": "Label [2524]",
+                          "left": 74,
+                          "top": 10,
+                          "anchor.__type__": "sketch.framework.Anchor",
+                          "backgroundBrush.lineWidth": 0,
+                          "backgroundBrush.__type__": "sketch.framework.Brush",
+                          "borderBrush.lineWidth": 0,
+                          "borderBrush.__type__": "sketch.framework.Brush",
+                          "text": "Vendredi - Babette",
+                          "font.size": 28,
+                          "font.bold": true,
+                          "font.color.value": "default.text",
+                          "font.color.type": "resource",
+                          "font.color.__type__": "sketch.framework.Brush",
+                          "font.__type__": "sketch.framework.Font"
+                        }
+                      },
+                      {
+                        "type": "sketch.ui.common.Label",
+                        "version": 3,
+                        "id": "01a80736-6a4f-c0cf-6539-4a9cb7c5fa53",
+                        "properties": {
+                          "width": 176,
+                          "height": 24,
+                          "name": "Label [2525]",
+                          "left": 83,
+                          "top": 40,
+                          "anchor.__type__": "sketch.framework.Anchor",
+                          "backgroundBrush.lineWidth": 0,
+                          "backgroundBrush.__type__": "sketch.framework.Brush",
+                          "borderBrush.lineWidth": 0,
+                          "borderBrush.__type__": "sketch.framework.Brush",
+                          "text": "Pizza du Ch'ti",
+                          "font.size": 28,
+                          "font.color.value": "default.text",
+                          "font.color.type": "resource",
+                          "font.color.__type__": "sketch.framework.Brush",
+                          "font.__type__": "sketch.framework.Font",
+                          "multiLine": true
+                        }
+                      },
+                      {
+                        "type": "sketch.ui.common.Icon",
+                        "version": 6,
+                        "id": "da2ef045-0625-9685-2de0-5b3b7398272d",
+                        "properties": {
+                          "width": 40,
+                          "height": 40,
+                          "name": "Icon [5bf3adb6-6550-c02f-6828-e49cf2cccf5d]",
+                          "left": 394,
+                          "top": 12,
+                          "clipSelf": true,
+                          "source.name": "ContentRemove",
+                          "source.__type__": "sketch.framework.ImageSourceFont",
+                          "backgroundBrush.value": "rgba(201,50,50,1)",
+                          "backgroundBrush.type": "color",
+                          "backgroundBrush.lineWidth": 0,
+                          "backgroundBrush.__type__": "sketch.framework.Brush"
+                        }
+                      },
+                      {
+                        "type": "sketch.ui.common.Icon",
+                        "version": 6,
+                        "id": "6ee49a58-60fa-723e-2ea6-be50ae694142",
+                        "properties": {
+                          "width": 40,
+                          "height": 40,
+                          "name": "Icon [5bf3adb6-6550-c02f-6828-e49cf2cccf5d]",
+                          "left": 345,
+                          "top": 12,
+                          "clipSelf": true,
+                          "source.name": "ContentNew",
+                          "source.__type__": "sketch.framework.ImageSourceFont",
+                          "backgroundBrush.value": "rgba(100,189,76,1)",
+                          "backgroundBrush.type": "color",
+                          "backgroundBrush.lineWidth": 0,
+                          "backgroundBrush.__type__": "sketch.framework.Brush"
+                        }
+                      },
+                      {
+                        "type": "sketch.ui.common.Image",
+                        "version": 6,
+                        "id": "22e57d94-e2e8-5098-53cf-e3535ae79a84",
+                        "properties": {
+                          "width": 50,
+                          "height": 50,
+                          "name": "Image [22e57d94-e2e8-5098-53cf-e3535ae79a84]",
+                          "left": 14,
+                          "top": 7,
+                          "source.width": 64,
+                          "source.height": 64,
+                          "source.url": "https://cdn0.iconfinder.com/data/icons/famale/512/famale_1-64.png",
+                          "source.__type__": "sketch.framework.ImageSourceURL",
+                          "clipSelf": true
+                        }
+                      }
+                    ],
+                    "states": {
+                      "default": {
+                        "properties": {}
+                      }
+                    }
+                  },
+                  {
+                    "type": "sketch.ui.android.ListItem",
+                    "version": 1,
+                    "id": "52e98d21-f6b0-4567-537a-d2943892497c",
+                    "properties": {
+                      "name": "List item [274]",
+                      "left": 0,
+                      "top": 130,
+                      "horizontalAlignment": "stretch",
+                      "enableGroupLocking": true,
+                      "templateId": "ui.android.templates.ListItemTemplate",
+                      "width": 450,
+                      "height": 64,
+                      "backgroundBrush.value.sliders": [
+                        [
+                          0,
+                          "rgba(255,255,255,1)"
+                        ],
+                        [
+                          100,
+                          "rgba(178,222,166,1)"
+                        ],
+                        [
+                          10,
+                          "#f0f0f0"
+                        ],
+                        [
+                          16,
+                          "#f0f0f0"
+                        ]
+                      ],
+                      "backgroundBrush.value.direction": "down",
+                      "backgroundBrush.type": "gradient",
+                      "backgroundBrush.__type__": "sketch.framework.Brush"
+                    },
+                    "tags": "ListItem",
+                    "children": [
+                      {
+                        "type": "sketch.ui.common.Label",
+                        "version": 3,
+                        "id": "de671b6f-64ff-4483-088f-acb12d55b980",
+                        "properties": {
+                          "width": 180,
+                          "height": 25,
+                          "name": "Label [2524]",
+                          "left": 74,
+                          "top": 15,
+                          "anchor.__type__": "sketch.framework.Anchor",
+                          "backgroundBrush.lineWidth": 0,
+                          "backgroundBrush.__type__": "sketch.framework.Brush",
+                          "borderBrush.lineWidth": 0,
+                          "borderBrush.__type__": "sketch.framework.Brush",
+                          "text": "Lundi 4 - Babette",
+                          "font.size": 28,
+                          "font.bold": true,
+                          "font.color.value": "default.text",
+                          "font.color.type": "resource",
+                          "font.color.__type__": "sketch.framework.Brush",
+                          "font.__type__": "sketch.framework.Font"
+                        }
+                      },
+                      {
+                        "type": "sketch.ui.common.Label",
+                        "version": 3,
+                        "id": "bfb89af7-e22c-f1df-70a9-c71258cb641e",
+                        "properties": {
+                          "width": 176,
+                          "height": 24,
+                          "name": "Label [2525]",
+                          "left": 83,
+                          "top": 40,
+                          "anchor.__type__": "sketch.framework.Anchor",
+                          "backgroundBrush.lineWidth": 0,
+                          "backgroundBrush.__type__": "sketch.framework.Brush",
+                          "borderBrush.lineWidth": 0,
+                          "borderBrush.__type__": "sketch.framework.Brush",
+                          "text": "Burger à l'italienne",
+                          "font.size": 28,
+                          "font.color.value": "default.text",
+                          "font.color.type": "resource",
+                          "font.color.__type__": "sketch.framework.Brush",
+                          "font.__type__": "sketch.framework.Font",
+                          "multiLine": true
+                        }
+                      },
+                      {
+                        "type": "sketch.ui.common.Icon",
+                        "version": 6,
+                        "id": "9c7a4887-c57f-f88a-ed48-207a6af23f5c",
+                        "properties": {
+                          "width": 40,
+                          "height": 40,
+                          "name": "Icon [7f135fdd-932e-1348-d4b8-dfb3ae198cf4]",
+                          "left": 394,
+                          "top": 7,
+                          "source.name": "NavigationAccept",
+                          "source.__type__": "sketch.framework.ImageSourceFont",
+                          "clipSelf": true
+                        }
+                      },
+                      {
+                        "type": "sketch.ui.common.Image",
+                        "version": 6,
+                        "id": "aff18841-2a20-1441-6d20-60683d5de655",
+                        "properties": {
+                          "width": 50,
+                          "height": 50,
+                          "name": "Image [22e57d94-e2e8-5098-53cf-e3535ae79a84]",
+                          "left": 14,
+                          "top": 7,
+                          "source.width": 64,
+                          "source.height": 64,
+                          "source.url": "https://cdn0.iconfinder.com/data/icons/famale/512/famale_1-64.png",
+                          "source.__type__": "sketch.framework.ImageSourceURL",
+                          "clipSelf": true
+                        }
+                      }
+                    ],
+                    "states": {
+                      "default": {
+                        "properties": {}
+                      }
+                    }
+                  },
+                  {
+                    "type": "sketch.ui.android.ListItem",
+                    "version": 1,
+                    "id": "d0340bec-da5c-6b9b-54c5-d9035526ed84",
+                    "properties": {
+                      "name": "List item [274]",
+                      "left": 0,
+                      "top": 195,
+                      "horizontalAlignment": "stretch",
+                      "enableGroupLocking": true,
+                      "templateId": "ui.android.templates.ListItemTemplate",
+                      "backgroundBrush.value.sliders": [
+                        [
+                          0,
+                          "rgba(255,255,255,1)"
+                        ]
+                      ],
+                      "backgroundBrush.value.direction": "down",
+                      "backgroundBrush.type": "gradient",
+                      "backgroundBrush.__type__": "sketch.framework.Brush",
+                      "width": 450,
+                      "height": 64
+                    },
+                    "tags": "ListItem",
+                    "children": [
+                      {
+                        "type": "sketch.ui.common.Label",
+                        "version": 3,
+                        "id": "606952b2-5534-abe0-68b9-4f2c87c54a71",
+                        "properties": {
+                          "width": 180,
+                          "height": 25,
+                          "name": "Label [2524]",
+                          "left": 74,
+                          "top": 15,
+                          "anchor.__type__": "sketch.framework.Anchor",
+                          "backgroundBrush.lineWidth": 0,
+                          "backgroundBrush.__type__": "sketch.framework.Brush",
+                          "borderBrush.lineWidth": 0,
+                          "borderBrush.__type__": "sketch.framework.Brush",
+                          "text": "Mercredi 6- Jacky",
+                          "font.size": 28,
+                          "font.bold": true,
+                          "font.color.value": "default.text",
+                          "font.color.type": "resource",
+                          "font.color.__type__": "sketch.framework.Brush",
+                          "font.__type__": "sketch.framework.Font"
+                        }
+                      },
+                      {
+                        "type": "sketch.ui.common.Label",
+                        "version": 3,
+                        "id": "e0758294-22a7-833e-ec46-c8518665453d",
+                        "properties": {
+                          "width": 176,
+                          "height": 24,
+                          "name": "Label [2525]",
+                          "left": 83,
+                          "top": 40,
+                          "anchor.__type__": "sketch.framework.Anchor",
+                          "backgroundBrush.lineWidth": 0,
+                          "backgroundBrush.__type__": "sketch.framework.Brush",
+                          "borderBrush.lineWidth": 0,
+                          "borderBrush.__type__": "sketch.framework.Brush",
+                          "text": "Purée knacki",
+                          "font.size": 28,
+                          "font.color.value": "default.text",
+                          "font.color.type": "resource",
+                          "font.color.__type__": "sketch.framework.Brush",
+                          "font.__type__": "sketch.framework.Font",
+                          "multiLine": true
+                        }
+                      },
+                      {
+                        "type": "sketch.ui.common.Image",
+                        "version": 6,
+                        "id": "bf9ff809-ace7-4b73-efda-49861bbcafc5",
+                        "properties": {
+                          "width": 50,
+                          "height": 50,
+                          "name": "Image [22e57d94-e2e8-5098-53cf-e3535ae79a84]",
+                          "left": 14,
+                          "top": 7,
+                          "source.width": 64,
+                          "source.height": 64,
+                          "source.url": "https://cdn0.iconfinder.com/data/icons/avatars-7/128/01-64.png",
+                          "source.__type__": "sketch.framework.ImageSourceURL",
+                          "clipSelf": true
+                        }
+                      },
+                      {
+                        "type": "sketch.ui.common.Icon",
+                        "version": 6,
+                        "id": "971822cd-b7c9-845e-971c-35576594c19f",
+                        "properties": {
+                          "width": 40,
+                          "height": 40,
+                          "name": "Icon [5bf3adb6-6550-c02f-6828-e49cf2cccf5d]",
+                          "left": 394,
+                          "top": 12,
+                          "source.name": "ContentRemove",
+                          "source.__type__": "sketch.framework.ImageSourceFont",
+                          "clipSelf": true,
+                          "backgroundBrush.value": "rgba(201,50,50,1)",
+                          "backgroundBrush.type": "color",
+                          "backgroundBrush.__type__": "sketch.framework.Brush"
+                        }
+                      },
+                      {
+                        "type": "sketch.ui.common.Icon",
+                        "version": 6,
+                        "id": "739f3bf5-6224-9b90-c5e5-e6f404f59eb0",
+                        "properties": {
+                          "width": 40,
+                          "height": 40,
+                          "name": "Icon [5bf3adb6-6550-c02f-6828-e49cf2cccf5d]",
+                          "left": 345,
+                          "top": 12,
+                          "source.name": "ContentNew",
+                          "source.__type__": "sketch.framework.ImageSourceFont",
+                          "clipSelf": true,
+                          "backgroundBrush.value": "rgba(100,189,76,1)",
+                          "backgroundBrush.type": "color",
+                          "backgroundBrush.lineWidth": 0,
+                          "backgroundBrush.__type__": "sketch.framework.Brush"
+                        }
+                      }
+                    ],
+                    "states": {
+                      "default": {
+                        "properties": {}
+                      }
+                    }
+                  }
+                ],
+                "states": {
+                  "default": {
+                    "properties": {}
+                  }
+                }
+              },
+              {
+                "type": "sketch.ui.common.Label",
+                "version": 3,
+                "id": "8e063067-7d36-5423-63b1-239270b2fda7",
+                "properties": {
+                  "width": 215,
+                  "height": 30,
+                  "left": 14,
+                  "top": 247,
+                  "text": "Prochaines gamellades",
+                  "font.size": 35,
+                  "font.__type__": "sketch.framework.Font",
+                  "scaleWithFontSize": true
+                }
+              },
+              {
+                "type": "sketch.ui.common.Label",
+                "version": 3,
+                "id": "4e602e0f-580c-e06d-9175-813b824f17f7",
+                "properties": {
+                  "width": 147,
+                  "height": 30,
+                  "left": 9,
+                  "top": 59,
+                  "text": "Agenda du chef",
+                  "font.size": 35,
+                  "font.__type__": "sketch.framework.Font",
+                  "scaleWithFontSize": true
+                }
+              },
+              {
+                "type": "sketch.ui.common.Icon",
+                "version": 6,
+                "id": "aadc80bf-a016-d6a1-c9fd-3044932520a0",
+                "properties": {
+                  "width": 40,
+                  "height": 35,
+                  "left": 173,
+                  "top": 57,
+                  "clipSelf": true,
+                  "borderBrush.lineWidth": 0,
+                  "borderBrush.__type__": "sketch.framework.Brush",
+                  "backgroundBrush.value": "default.text",
+                  "backgroundBrush.type": "resource",
+                  "backgroundBrush.lineWidth": 0,
+                  "backgroundBrush.__type__": "sketch.framework.Brush",
+                  "source.url": "https://cdn0.iconfinder.com/data/icons/small-n-flat/24/678092-sign-add-64.png",
+                  "source.__type__": "sketch.framework.ImageSourceURL",
+                  "pageLink": "82fa8e6e-88d5-fd42-3dbb-1a8c9f1d21c1"
+                }
+              },
+              {
+                "type": "sketch.ui.android.List",
+                "version": 1,
+                "id": "9e9a2d02-cddd-843c-c19a-5b082e95561e",
+                "properties": {
+                  "height": 135,
+                  "name": "List [1426]",
+                  "left": 0,
+                  "top": 95,
+                  "dropPositioning": "vertical",
+                  "enableGroupLocking": true,
+                  "templateId": "ui.android.templates.ListTemplate",
+                  "width": 450,
+                  "backgroundBrush.value": "rgba(255,255,255,1)",
+                  "backgroundBrush.type": "color",
+                  "backgroundBrush.__type__": "sketch.framework.Brush"
+                },
+                "tags": "List",
+                "children": [
+                  {
+                    "type": "sketch.ui.android.ListItem",
+                    "version": 1,
+                    "id": "6df7fde0-9d0f-b912-5d7b-c3f4c17b42b7",
+                    "properties": {
+                      "name": "List item [274]",
+                      "left": 0,
+                      "top": 0,
+                      "horizontalAlignment": "stretch",
+                      "enableGroupLocking": true,
+                      "templateId": "ui.android.templates.ListItemTemplate",
+                      "width": 450,
+                      "height": 64
+                    },
+                    "tags": "ListItem",
+                    "children": [
+                      {
+                        "type": "sketch.ui.common.Label",
+                        "version": 3,
+                        "id": "f65b4eac-158f-38ea-7654-3c9071d1af66",
+                        "properties": {
+                          "width": 180,
+                          "height": 25,
+                          "name": "Label [2524]",
+                          "left": 20,
+                          "top": 15,
+                          "anchor.__type__": "sketch.framework.Anchor",
+                          "backgroundBrush.lineWidth": 0,
+                          "backgroundBrush.__type__": "sketch.framework.Brush",
+                          "borderBrush.lineWidth": 0,
+                          "borderBrush.__type__": "sketch.framework.Brush",
+                          "text": "Demain",
+                          "font.size": 28,
+                          "font.color.value": "default.text",
+                          "font.color.type": "resource",
+                          "font.color.__type__": "sketch.framework.Brush",
+                          "font.__type__": "sketch.framework.Font",
+                          "font.bold": true
+                        }
+                      },
+                      {
+                        "type": "sketch.ui.common.Label",
+                        "version": 3,
+                        "id": "f1f83779-be74-f46a-6222-8371adef32af",
+                        "properties": {
+                          "width": 235,
+                          "height": 24,
+                          "name": "Label [2525]",
+                          "left": 24,
+                          "top": 40,
+                          "anchor.__type__": "sketch.framework.Anchor",
+                          "backgroundBrush.lineWidth": 0,
+                          "backgroundBrush.__type__": "sketch.framework.Brush",
+                          "borderBrush.lineWidth": 0,
+                          "borderBrush.__type__": "sketch.framework.Brush",
+                          "text": "Canard laqué aux pruneaux",
+                          "font.size": 28,
+                          "font.color.value": "default.text",
+                          "font.color.type": "resource",
+                          "font.color.__type__": "sketch.framework.Brush",
+                          "font.__type__": "sketch.framework.Font",
+                          "multiLine": true
+                        }
+                      },
+                      {
+                        "type": "sketch.ui.common.Icon",
+                        "version": 6,
+                        "id": "2aeed20d-56b6-bc24-cfe9-83f9d0047284",
+                        "properties": {
+                          "width": 40,
+                          "height": 40,
+                          "name": "Icon [2aeed20d-56b6-bc24-cfe9-83f9d0047284]",
+                          "left": 336,
+                          "top": 12,
+                          "clipSelf": true,
+                          "source.name": "SocialGroup",
+                          "source.__type__": "sketch.framework.ImageSourceFont",
+                          "backgroundBrush.value": "rgba(100,189,76,1)",
+                          "backgroundBrush.type": "color",
+                          "backgroundBrush.__type__": "sketch.framework.Brush"
+                        }
+                      }
+                    ],
+                    "states": {
+                      "default": {
+                        "properties": {}
+                      }
+                    }
+                  },
+                  {
+                    "type": "sketch.ui.android.ListItem",
+                    "version": 1,
+                    "id": "c03969a3-078b-ab3a-0813-28d22b78a813",
+                    "properties": {
+                      "name": "List item [274]",
+                      "left": 0,
+                      "top": 65,
+                      "horizontalAlignment": "stretch",
+                      "enableGroupLocking": true,
+                      "templateId": "ui.android.templates.ListItemTemplate"
+                    },
+                    "tags": "ListItem",
+                    "children": [
+                      {
+                        "type": "sketch.ui.common.Label",
+                        "version": 3,
+                        "id": "67a963d2-f7c7-db05-1ac4-590ab5ef529f",
+                        "properties": {
+                          "width": 180,
+                          "height": 25,
+                          "name": "Label [2524]",
+                          "left": 20,
+                          "top": 15,
+                          "anchor.__type__": "sketch.framework.Anchor",
+                          "backgroundBrush.lineWidth": 0,
+                          "backgroundBrush.__type__": "sketch.framework.Brush",
+                          "borderBrush.lineWidth": 0,
+                          "borderBrush.__type__": "sketch.framework.Brush",
+                          "text": "Vendredi",
+                          "font.size": 28,
+                          "font.color.value": "default.text",
+                          "font.color.type": "resource",
+                          "font.color.__type__": "sketch.framework.Brush",
+                          "font.__type__": "sketch.framework.Font",
+                          "font.bold": true
+                        }
+                      },
+                      {
+                        "type": "sketch.ui.common.Label",
+                        "version": 3,
+                        "id": "33492513-d70f-c106-3b2e-0d51aa26cb0b",
+                        "properties": {
+                          "width": 176,
+                          "height": 24,
+                          "name": "Label [2525]",
+                          "left": 24,
+                          "top": 40,
+                          "anchor.__type__": "sketch.framework.Anchor",
+                          "backgroundBrush.lineWidth": 0,
+                          "backgroundBrush.__type__": "sketch.framework.Brush",
+                          "borderBrush.lineWidth": 0,
+                          "borderBrush.__type__": "sketch.framework.Brush",
+                          "text": "Hot dog ketchup",
+                          "font.size": 28,
+                          "font.color.value": "default.text",
+                          "font.color.type": "resource",
+                          "font.color.__type__": "sketch.framework.Brush",
+                          "font.__type__": "sketch.framework.Font",
+                          "multiLine": true
+                        }
+                      },
+                      {
+                        "type": "sketch.ui.common.Label",
+                        "version": 3,
+                        "id": "6a5f8c2d-c753-85c8-b742-e63f55bc0d8c",
+                        "properties": {
+                          "width": 49,
+                          "height": 25,
+                          "name": "Label [2524]",
+                          "left": 385,
+                          "top": 23,
+                          "anchor.__type__": "sketch.framework.Anchor",
+                          "backgroundBrush.lineWidth": 0,
+                          "backgroundBrush.__type__": "sketch.framework.Brush",
+                          "borderBrush.lineWidth": 0,
+                          "borderBrush.__type__": "sketch.framework.Brush",
+                          "text": "1/3",
+                          "font.size": 28,
+                          "font.bold": true,
+                          "font.color.value": "default.text",
+                          "font.color.type": "resource",
+                          "font.color.__type__": "sketch.framework.Brush",
+                          "font.__type__": "sketch.framework.Font"
+                        }
+                      },
+                      {
+                        "type": "sketch.ui.common.Icon",
+                        "version": 6,
+                        "id": "f60aa6c9-9c36-0397-f185-3765e3f44eec",
+                        "properties": {
+                          "width": 40,
+                          "height": 40,
+                          "name": "Icon [2aeed20d-56b6-bc24-cfe9-83f9d0047284]",
+                          "left": 336,
+                          "top": 15,
+                          "source.name": "SocialGroup",
+                          "source.__type__": "sketch.framework.ImageSourceFont",
+                          "clipSelf": true,
+                          "backgroundBrush.value": "rgba(201,50,50,1)",
+                          "backgroundBrush.type": "color",
+                          "backgroundBrush.__type__": "sketch.framework.Brush"
+                        }
+                      }
+                    ],
+                    "states": {
+                      "default": {
+                        "properties": {}
+                      }
+                    }
+                  }
+                ],
+                "states": {
+                  "default": {
+                    "properties": {}
+                  }
+                }
+              }
+            ],
+            "panelProperties": {
+              "type": "sketch.ui.common.PortableDevicePanel",
+              "version": 1,
+              "id": "c5b71d77-c79d-5212-ede9-20d2564830b1",
+              "properties": {
+                "width": 450,
+                "height": 800,
+                "left": 1340,
+                "top": 760,
+                "clipSelf": true
+              }
+            }
+          },
+          {
+            "type": "sketch.ui.common.Label",
+            "version": 3,
+            "id": "4e8a2650-e884-0d2f-1827-73f1134b254e",
+            "properties": {
+              "width": 49,
+              "height": 25,
+              "name": "Label [2524]",
+              "left": 1725,
+              "top": 875,
+              "anchor.__type__": "sketch.framework.Anchor",
+              "backgroundBrush.lineWidth": 0,
+              "backgroundBrush.__type__": "sketch.framework.Brush",
+              "borderBrush.lineWidth": 0,
+              "borderBrush.__type__": "sketch.framework.Brush",
+              "text": "3/3",
+              "font.size": 28,
+              "font.bold": true,
+              "font.color.value": "default.text",
+              "font.color.type": "resource",
+              "font.color.__type__": "sketch.framework.Brush",
+              "font.__type__": "sketch.framework.Font"
+            }
+          }
+        ],
+        "isDeleted": false,
+        "groupId": 1,
+        "screenType": "Android"
+      },
+      {
+        "version": 1,
+        "id": "82fa8e6e-88d5-fd42-3dbb-1a8c9f1d21c1",
+        "type": "sketch.ui.pages.PortableDevicePage",
+        "name": "Nouvelle gamellade",
+        "background": {
+          "value": "rgba(150,198,230,1)",
+          "type": "color",
+          "lineWidth": null,
+          "__type__": "sketch.framework.Brush"
+        },
+        "children": [
+          {
+            "type": "sketch.ui.common.PortableDevice",
+            "version": 1,
+            "id": "a3d53106-5de8-ba3b-4db3-5f27a361e6ea",
+            "properties": {
+              "width": 3130,
+              "height": 2320,
+              "background.value": "rgba(150,198,230,1)",
+              "background.type": "color",
+              "background.__type__": "sketch.framework.Brush"
+            },
+            "children": [
+              {
+                "type": "sketch.framework.Rectangle",
+                "version": 3,
+                "id": "f6f4e87c-4d3b-1dd3-5f83-4964f1757510",
+                "properties": {
+                  "left": -1340,
+                  "top": -760
+                }
+              },
+              {
+                "type": "sketch.ui.android.ActionBar",
+                "version": 1,
+                "id": "e14f2056-154e-5cb6-fba7-8f1e5a621467",
+                "properties": {
+                  "name": "Action Bar [746]",
+                  "left": 0,
+                  "top": 0,
+                  "enableGroupLocking": true,
+                  "templateId": "ui.android.templates.ActionBarTemplate",
+                  "backgroundBrush.value": "rgba(224,224,224,1)",
+                  "backgroundBrush.type": "color",
+                  "backgroundBrush.__type__": "sketch.framework.Brush"
+                },
+                "tags": "Bar",
+                "children": [
+                  {
+                    "type": "sketch.ui.common.Icon",
+                    "version": 6,
+                    "id": "a707ef97-d08b-0b8e-5924-43239a675e69",
+                    "properties": {
+                      "width": 30,
+                      "height": 30,
+                      "name": "Icon [102]",
+                      "left": 420,
+                      "top": 10,
+                      "anchor.left": false,
+                      "anchor.right": true,
+                      "anchor.__type__": "sketch.framework.Anchor",
+                      "backgroundBrush.value": "default.text",
+                      "backgroundBrush.type": "resource",
+                      "backgroundBrush.lineWidth": 0,
+                      "backgroundBrush.__type__": "sketch.framework.Brush",
+                      "borderBrush.lineWidth": 0,
+                      "borderBrush.__type__": "sketch.framework.Brush",
+                      "source.name": "NavigationMore",
+                      "source.__type__": "sketch.framework.ImageSourceFont",
+                      "clipSelf": true
+                    }
+                  },
+                  {
+                    "type": "sketch.ui.common.Icon",
+                    "version": 6,
+                    "id": "c8218616-5298-1a06-4427-d1910d21c93f",
+                    "properties": {
+                      "width": 25,
+                      "height": 42,
+                      "name": "Icon [2414]",
+                      "top": 5,
+                      "source.name": "NavigationPreviousItem",
+                      "source.__type__": "sketch.framework.ImageSourceFont",
+                      "clipSelf": true,
+                      "pageLink": "65e6460d-f618-ebe7-fbbc-f6ee47d5fcc9"
+                    }
+                  },
+                  {
+                    "type": "sketch.ui.common.Icon",
+                    "version": 6,
+                    "id": "44f40367-1a06-aa7d-74ad-657d01772625",
+                    "properties": {
+                      "width": 36,
+                      "height": 48,
+                      "name": "Icon [5129]",
+                      "left": 25,
+                      "source.width": 56,
+                      "source.height": 57,
+                      "source.url": "https://ninjastorage.blob.core.windows.net/companyfiles/1887955/a9e8f8da-f093-412c-ab97-8c60e447d5e0.png",
+                      "source.__type__": "sketch.framework.ImageSourceURL",
+                      "clipSelf": true
+                    }
+                  },
+                  {
+                    "type": "sketch.ui.common.Label",
+                    "version": 3,
+                    "id": "ea2ff18a-15c5-9aaa-adff-dce4abbccbd8",
+                    "properties": {
+                      "width": 136,
+                      "height": 48,
+                      "name": "Label [5148]",
+                      "left": 66,
+                      "text": "Nouvelle gamellade",
+                      "textVerticalAlign": "middle"
+                    }
+                  }
+                ],
+                "states": {
+                  "default": {
+                    "properties": {}
+                  }
+                }
+              },
+              {
+                "type": "sketch.framework.Rectangle",
+                "version": 3,
+                "id": "3199ffa1-433f-305f-a0ba-7d1dde61daa7",
+                "properties": {
+                  "width": 450,
+                  "height": 373,
+                  "left": 0,
+                  "top": 94,
+                  "cornerRadius.__type__": "sketch.framework.QuadAndLock",
+                  "anchor.right": true,
+                  "anchor.__type__": "sketch.framework.Anchor",
+                  "backgroundBrush.value": "rgba(255,255,255,1)",
+                  "backgroundBrush.type": "color",
+                  "backgroundBrush.__type__": "sketch.framework.Brush"
+                }
+              },
+              {
+                "type": "sketch.framework.Rectangle",
+                "version": 3,
+                "id": "a1180741-5bc1-4e4a-7427-bded00d55734",
+                "properties": {
+                  "width": 450,
+                  "height": 286,
+                  "left": 0,
+                  "top": 514,
+                  "anchor.right": true,
+                  "anchor.__type__": "sketch.framework.Anchor",
+                  "backgroundBrush.value": "rgba(255,255,255,1)",
+                  "backgroundBrush.type": "color",
+                  "backgroundBrush.__type__": "sketch.framework.Brush",
+                  "cornerRadius.__type__": "sketch.framework.QuadAndLock"
+                }
+              },
+              {
+                "type": "sketch.ui.android.TextField",
+                "version": 1,
+                "id": "63522eb6-082e-9509-e643-7343cff18edc",
+                "properties": {
+                  "width": 389,
+                  "name": "Asset [63522eb6-082e-9509-e643-7343cff18edc]",
+                  "left": 37,
+                  "top": 199,
+                  "templateId": "ui.android.templates.TextFieldTemplate",
+                  "height": 30,
+                  "opacity": 1,
+                  "text": "",
+                  "backgroundBrush.value": "rgba(245,245,245,1)",
+                  "backgroundBrush.type": "color",
+                  "backgroundBrush.__type__": "sketch.framework.Brush"
+                },
+                "states": {
+                  "default": {
+                    "properties": {}
+                  }
+                }
+              },
+              {
+                "type": "sketch.ui.android.TextField",
+                "version": 1,
+                "id": "b264ce72-0734-67af-9363-187dd71635da",
+                "properties": {
+                  "width": 124,
+                  "name": "Asset [63522eb6-082e-9509-e643-7343cff18edc]",
+                  "left": 34,
+                  "top": 130,
+                  "templateId": "ui.android.templates.TextFieldTemplate",
+                  "text": "JJ/MM/AA",
+                  "height": 30,
+                  "backgroundBrush.value": "rgba(245,245,245,1)",
+                  "backgroundBrush.type": "color",
+                  "backgroundBrush.__type__": "sketch.framework.Brush"
+                },
+                "states": {
+                  "default": {
+                    "properties": {}
+                  }
+                }
+              },
+              {
+                "type": "sketch.ui.common.Label",
+                "version": 3,
+                "id": "60d2db2a-e2ef-d646-9a45-dd13263a4b9a",
+                "properties": {
+                  "width": 130,
+                  "height": 26,
+                  "left": 31,
+                  "top": 173,
+                  "text": "Plat principal :",
+                  "scaleWithFontSize": true
+                }
+              },
+              {
+                "type": "sketch.ui.common.Label",
+                "version": 3,
+                "id": "ea258921-4ae1-ab3c-ad29-9923080fb3c6",
+                "properties": {
+                  "width": 55,
+                  "height": 26,
+                  "left": 33,
+                  "top": 104,
+                  "text": "Date :",
+                  "scaleWithFontSize": true
+                }
+              },
+              {
+                "type": "sketch.ui.android.TextField",
+                "version": 1,
+                "id": "a8164b73-2591-235b-04d1-b8b104e539ca",
+                "properties": {
+                  "width": 389,
+                  "name": "Asset [63522eb6-082e-9509-e643-7343cff18edc]",
+                  "left": 37,
+                  "top": 265,
+                  "templateId": "ui.android.templates.TextFieldTemplate",
+                  "text": "",
+                  "height": 30,
+                  "backgroundBrush.value": "rgba(245,245,245,1)",
+                  "backgroundBrush.type": "color",
+                  "backgroundBrush.__type__": "sketch.framework.Brush"
+                },
+                "states": {
+                  "default": {
+                    "properties": {}
+                  }
+                }
+              },
+              {
+                "type": "sketch.ui.common.Label",
+                "version": 3,
+                "id": "1b8838e0-2d04-d92b-1f21-61afa0e31880",
+                "properties": {
+                  "width": 80,
+                  "height": 26,
+                  "left": 33,
+                  "top": 239,
+                  "text": "Dessert :",
+                  "scaleWithFontSize": true
+                }
+              },
+              {
+                "type": "sketch.ui.common.Label",
+                "version": 3,
+                "id": "bd7e70d3-7ec3-6e19-a22e-dcf3ff1c9176",
+                "properties": {
+                  "width": 139,
+                  "height": 26,
+                  "left": 37,
+                  "top": 360,
+                  "text": "Commentaires :",
+                  "scaleWithFontSize": true
+                }
+              },
+              {
+                "type": "sketch.ui.common.Label",
+                "version": 3,
+                "id": "81b3848e-80c6-6e8e-910a-9e6ea6581446",
+                "properties": {
+                  "width": 56,
+                  "height": 26,
+                  "left": 31,
+                  "top": 312,
+                  "text": "Tarif :",
+                  "scaleWithFontSize": true,
+                  "font.__type__": "sketch.framework.Font"
+                }
+              },
+              {
+                "type": "sketch.ui.android.Spinner",
+                "version": 1,
+                "id": "092aa14c-55ad-08f8-78dc-d082e21aca8a",
+                "properties": {
+                  "name": "Asset [092aa14c-55ad-08f8-78dc-d082e21aca8a]",
+                  "left": 133,
+                  "top": 55,
+                  "templateId": "ui.android.templates.SpinnerTemplate",
+                  "width": 191,
+                  "height": 36,
+                  "text": "Plat + dessert",
+                  "backgroundBrush.value": "rgba(183,217,240,1)",
+                  "backgroundBrush.type": "color",
+                  "backgroundBrush.__type__": "sketch.framework.Brush",
+                  "anchor.top": false,
+                  "anchor.__type__": "sketch.framework.Anchor",
+                  "font.lineHeight": 1.1,
+                  "borderWidth": 1,
+                  "font.size": 28
+                },
+                "states": {
+                  "default": {
+                    "properties": {}
+                  }
+                }
+              },
+              {
+                "type": "sketch.ui.common.Label",
+                "version": 3,
+                "id": "c5da35c9-e239-1be5-786b-22f301fce499",
+                "properties": {
+                  "width": 104,
+                  "height": 30,
+                  "left": 8,
+                  "top": 58,
+                  "text": "Mon repas",
+                  "scaleWithFontSize": true,
+                  "font.size": 35,
+                  "font.__type__": "sketch.framework.Font"
+                }
+              },
+              {
+                "type": "sketch.ui.common.Label",
+                "version": 3,
+                "id": "1317adbd-7ce6-b2b7-2a51-24154a05722c",
+                "properties": {
+                  "width": 110,
+                  "height": 30,
+                  "left": 8,
+                  "top": 479,
+                  "text": "Mes invités",
+                  "scaleWithFontSize": true,
+                  "font.size": 35,
+                  "font.__type__": "sketch.framework.Font"
+                }
+              },
+              {
+                "type": "sketch.ui.common.Icon",
+                "version": 6,
+                "id": "51e10757-ed80-de06-6222-33eee2307300",
+                "properties": {
+                  "width": 40,
+                  "height": 40,
+                  "left": 158,
+                  "top": 125,
+                  "clipSelf": true,
+                  "source.name": "CollectionsGoToToday",
+                  "source.__type__": "sketch.framework.ImageSourceFont"
+                }
+              },
+              {
+                "type": "sketch.ui.android.TextField",
+                "version": 1,
+                "id": "72642567-20cc-9d66-9662-b60b3f4c36bb",
+                "properties": {
+                  "width": 83,
+                  "name": "Asset [63522eb6-082e-9509-e643-7343cff18edc]",
+                  "left": 241,
+                  "top": 130,
+                  "templateId": "ui.android.templates.TextFieldTemplate",
+                  "text": "12:00",
+                  "height": 30,
+                  "backgroundBrush.value": "rgba(245,245,245,1)",
+                  "backgroundBrush.type": "color",
+                  "backgroundBrush.__type__": "sketch.framework.Brush"
+                },
+                "states": {
+                  "default": {
+                    "properties": {}
+                  }
+                }
+              },
+              {
+                "type": "sketch.ui.common.Label",
+                "version": 3,
+                "id": "bb102ba1-ba2e-f2d5-68f9-16a448a3575b",
+                "properties": {
+                  "width": 61,
+                  "height": 26,
+                  "left": 240,
+                  "top": 104,
+                  "text": "Heure :",
+                  "scaleWithFontSize": true
+                }
+              },
+              {
+                "type": "sketch.ui.common.Icon",
+                "version": 6,
+                "id": "cc6cb564-9a9f-a47d-d96d-3b7916cb6a3b",
+                "properties": {
+                  "width": 40,
+                  "height": 40,
+                  "left": 324,
+                  "top": 125,
+                  "clipSelf": true,
+                  "source.name": "DeviceAccessTime",
+                  "source.__type__": "sketch.framework.ImageSourceFont"
+                }
+              },
+              {
+                "type": "sketch.ui.android.Checkbox",
+                "version": 1,
+                "id": "349295b8-6a2e-e378-5dcc-3fa5d400dd83",
+                "properties": {
+                  "name": "Asset [349295b8-6a2e-e378-5dcc-3fa5d400dd83]",
+                  "left": 188,
+                  "top": 315,
+                  "templateId": "ui.android.templates.CheckBoxTemplate",
+                  "width": 246,
+                  "height": 21,
+                  "text": "Je m'occupe de la vaisselle",
+                  "font.size": 28
+                },
+                "states": {
+                  "default": {
+                    "properties": {}
+                  }
+                }
+              },
+              {
+                "type": "sketch.ui.android.TextField",
+                "version": 1,
+                "id": "6a309e1a-2256-e28a-5763-10638c116e4c",
+                "properties": {
+                  "width": 389,
+                  "name": "Asset [6a309e1a-2256-e28a-5763-10638c116e4c]",
+                  "left": 37,
+                  "top": 392,
+                  "templateId": "ui.android.templates.TextFieldTemplate",
+                  "height": 29,
+                  "backgroundBrush.value": "rgba(245,245,245,1)",
+                  "backgroundBrush.type": "color",
+                  "backgroundBrush.__type__": "sketch.framework.Brush",
+                  "text": "",
+                  "enabled": true
+                },
+                "states": {
+                  "default": {
+                    "properties": {}
+                  }
+                }
+              },
+              {
+                "type": "sketch.ui.common.Icon",
+                "version": 6,
+                "id": "dd34511f-0b67-3698-3529-b2ee4f43ab8c",
+                "properties": {
+                  "width": 40,
+                  "height": 40,
+                  "left": 128,
+                  "top": 474,
+                  "clipSelf": true,
+                  "source.name": "SocialAddPerson",
+                  "source.__type__": "sketch.framework.ImageSourceFont"
+                }
+              },
+              {
+                "type": "sketch.ui.android.List",
+                "version": 1,
+                "id": "fdd0c170-9c9f-303d-2d2d-8fda36b588e6",
+                "properties": {
+                  "height": 234,
+                  "name": "List [1426]",
+                  "left": 0,
+                  "top": 516,
+                  "backgroundBrush.value": "rgba(240,240,240,1)",
+                  "backgroundBrush.type": "color",
+                  "backgroundBrush.__type__": "sketch.framework.Brush",
+                  "dropPositioning": "vertical",
+                  "enableGroupLocking": true,
+                  "templateId": "ui.android.templates.ListTemplate",
+                  "width": 450
+                },
+                "tags": "List",
+                "children": [
+                  {
+                    "type": "sketch.ui.android.ListItem",
+                    "version": 1,
+                    "id": "96408196-1571-077d-2bd5-4af371ad1fce",
+                    "properties": {
+                      "name": "List item [274]",
+                      "left": 0,
+                      "top": 0,
+                      "horizontalAlignment": "stretch",
+                      "enableGroupLocking": true,
+                      "templateId": "ui.android.templates.ListItemTemplate",
+                      "backgroundBrush.value.sliders": [
+                        [
+                          0,
+                          "rgba(255,255,255,1)"
+                        ]
+                      ],
+                      "backgroundBrush.value.direction": "down",
+                      "backgroundBrush.type": "gradient",
+                      "backgroundBrush.lineWidth": 0,
+                      "backgroundBrush.__type__": "sketch.framework.Brush"
+                    },
+                    "tags": "ListItem",
+                    "children": [
+                      {
+                        "type": "sketch.ui.common.Label",
+                        "version": 3,
+                        "id": "f78a15dd-3180-1c8f-4b93-f65baea5a323",
+                        "properties": {
+                          "width": 180,
+                          "height": 25,
+                          "name": "Label [2524]",
+                          "left": 74,
+                          "top": 15,
+                          "anchor.__type__": "sketch.framework.Anchor",
+                          "backgroundBrush.lineWidth": 0,
+                          "backgroundBrush.__type__": "sketch.framework.Brush",
+                          "borderBrush.lineWidth": 0,
+                          "borderBrush.__type__": "sketch.framework.Brush",
+                          "text": "Les gamelleurs fous",
+                          "font.size": 28,
+                          "font.bold": true,
+                          "font.color.value": "default.text",
+                          "font.color.type": "resource",
+                          "font.color.__type__": "sketch.framework.Brush",
+                          "font.__type__": "sketch.framework.Font"
+                        }
+                      },
+                      {
+                        "type": "sketch.ui.common.Label",
+                        "version": 3,
+                        "id": "5019227f-c8fa-3251-7989-b9a86f1a8d6e",
+                        "properties": {
+                          "width": 176,
+                          "height": 24,
+                          "name": "Label [2525]",
+                          "left": 83,
+                          "top": 40,
+                          "anchor.__type__": "sketch.framework.Anchor",
+                          "backgroundBrush.lineWidth": 0,
+                          "backgroundBrush.__type__": "sketch.framework.Brush",
+                          "borderBrush.lineWidth": 0,
+                          "borderBrush.__type__": "sketch.framework.Brush",
+                          "text": "(Groupe)",
+                          "font.size": 24,
+                          "font.color.value": "default.text",
+                          "font.color.type": "resource",
+                          "font.color.__type__": "sketch.framework.Brush",
+                          "font.__type__": "sketch.framework.Font",
+                          "multiLine": true
+                        }
+                      },
+                      {
+                        "type": "sketch.ui.common.Image",
+                        "version": 6,
+                        "id": "e9141fa6-bab2-dc5d-fc31-287ff87a7e5f",
+                        "properties": {
+                          "width": 29,
+                          "height": 32,
+                          "name": "Image [fce41c77-b2a2-56b1-f541-35bf0a89b531]",
+                          "left": 14,
+                          "top": 11,
+                          "source.width": 56,
+                          "source.height": 64,
+                          "source.url": "https://cdn0.iconfinder.com/data/icons/shift-avatar/32/Jonathan-64.png",
+                          "source.__type__": "sketch.framework.ImageSourceURL",
+                          "clipSelf": true
+                        }
+                      },
+                      {
+                        "type": "sketch.ui.common.Image",
+                        "version": 6,
+                        "id": "117456e3-32a7-3743-b956-ad5f9ca4bf84",
+                        "properties": {
+                          "width": 49,
+                          "height": 35,
+                          "name": "Image [22e57d94-e2e8-5098-53cf-e3535ae79a84]",
+                          "left": 25,
+                          "top": 24,
+                          "source.width": 64,
+                          "source.height": 64,
+                          "source.url": "https://cdn0.iconfinder.com/data/icons/avatars-7/128/01-64.png",
+                          "source.__type__": "sketch.framework.ImageSourceURL",
+                          "clipSelf": true
+                        }
+                      },
+                      {
+                        "type": "sketch.ui.android.Checkbox",
+                        "version": 1,
+                        "id": "315bf2d6-27ce-6ca1-0d07-94bdbcc0e085",
+                        "properties": {
+                          "name": "Asset [315bf2d6-27ce-6ca1-0d07-94bdbcc0e085]",
+                          "left": 398,
+                          "top": 21,
+                          "templateId": "ui.android.templates.CheckBoxTemplate",
+                          "width": 36,
+                          "height": 21,
+                          "text": "",
+                          "checked": true
+                        },
+                        "states": {
+                          "default": {
+                            "properties": {}
+                          }
+                        }
+                      }
+                    ],
+                    "states": {
+                      "default": {
+                        "properties": {}
+                      }
+                    }
+                  },
+                  {
+                    "type": "sketch.ui.android.ListItem",
+                    "version": 1,
+                    "id": "b72eaa09-c5ac-9fff-23c8-194a4e50526d",
+                    "properties": {
+                      "name": "List item [274]",
+                      "left": 0,
+                      "top": 65,
+                      "horizontalAlignment": "stretch",
+                      "backgroundBrush.value": {
+                        "sliders": [
+                          [
+                            0,
+                            "rgba(255,255,255,1)"
+                          ]
+                        ],
+                        "direction": "down"
+                      },
+                      "backgroundBrush.type": "gradient",
+                      "backgroundBrush.__type__": "sketch.framework.Brush",
+                      "enableGroupLocking": true,
+                      "templateId": "ui.android.templates.ListItemTemplate"
+                    },
+                    "tags": "ListItem",
+                    "children": [
+                      {
+                        "type": "sketch.ui.common.Label",
+                        "version": 3,
+                        "id": "75fd0ea0-a647-efff-4bd6-7964bbbb0f0d",
+                        "properties": {
+                          "width": 180,
+                          "height": 25,
+                          "name": "Label [2524]",
+                          "left": 81,
+                          "top": 20,
+                          "anchor.__type__": "sketch.framework.Anchor",
+                          "backgroundBrush.lineWidth": 0,
+                          "backgroundBrush.__type__": "sketch.framework.Brush",
+                          "borderBrush.lineWidth": 0,
+                          "borderBrush.__type__": "sketch.framework.Brush",
+                          "text": "Caro",
+                          "font.size": 28,
+                          "font.bold": true,
+                          "font.color.value": "default.text",
+                          "font.color.type": "resource",
+                          "font.color.__type__": "sketch.framework.Brush",
+                          "font.__type__": "sketch.framework.Font"
+                        }
+                      },
+                      {
+                        "type": "sketch.ui.common.Image",
+                        "version": 6,
+                        "id": "2f390b10-3860-c141-4cfc-669fb79b0fbc",
+                        "properties": {
+                          "width": 50,
+                          "height": 50,
+                          "name": "Image [22e57d94-e2e8-5098-53cf-e3535ae79a84]",
+                          "left": 14,
+                          "top": 7,
+                          "clipSelf": true,
+                          "source.url": "https://cdn0.iconfinder.com/data/icons/avatars-7/128/23-64.png",
+                          "source.__type__": "sketch.framework.ImageSourceURL"
+                        }
+                      },
+                      {
+                        "type": "sketch.ui.android.Checkbox",
+                        "version": 1,
+                        "id": "f41dab5b-c0f1-de9e-49cf-9e06a430a44c",
+                        "properties": {
+                          "width": 36,
+                          "name": "Asset [315bf2d6-27ce-6ca1-0d07-94bdbcc0e085]",
+                          "left": 398,
+                          "top": 22,
+                          "templateId": "ui.android.templates.CheckBoxTemplate",
+                          "text": "",
+                          "height": 21,
+                          "checked": false
+                        },
+                        "states": {
+                          "default": {
+                            "properties": {}
+                          }
+                        }
+                      }
+                    ],
+                    "states": {
+                      "default": {
+                        "properties": {}
+                      }
+                    }
+                  },
+                  {
+                    "type": "sketch.ui.android.ListItem",
+                    "version": 1,
+                    "id": "5246154a-f4ed-f267-260f-a3784d28b84b",
+                    "properties": {
+                      "name": "List item [274]",
+                      "left": 0,
+                      "top": 130,
+                      "horizontalAlignment": "stretch",
+                      "backgroundBrush.value": {
+                        "sliders": [
+                          [
+                            0,
+                            "rgba(255,255,255,1)"
+                          ]
+                        ],
+                        "direction": "down"
+                      },
+                      "backgroundBrush.type": "gradient",
+                      "backgroundBrush.__type__": "sketch.framework.Brush",
+                      "enableGroupLocking": true,
+                      "templateId": "ui.android.templates.ListItemTemplate",
+                      "width": 450,
+                      "height": 64
+                    },
+                    "tags": "ListItem",
+                    "children": [
+                      {
+                        "type": "sketch.ui.common.Label",
+                        "version": 3,
+                        "id": "a6ed55d9-cb52-f451-7876-5da196a242dc",
+                        "properties": {
+                          "width": 180,
+                          "height": 25,
+                          "name": "Label [2524]",
+                          "left": 74,
+                          "top": 21,
+                          "anchor.__type__": "sketch.framework.Anchor",
+                          "backgroundBrush.lineWidth": 0,
+                          "backgroundBrush.__type__": "sketch.framework.Brush",
+                          "borderBrush.lineWidth": 0,
+                          "borderBrush.__type__": "sketch.framework.Brush",
+                          "text": "Babette",
+                          "font.size": 28,
+                          "font.bold": true,
+                          "font.color.value": "default.text",
+                          "font.color.type": "resource",
+                          "font.color.__type__": "sketch.framework.Brush",
+                          "font.__type__": "sketch.framework.Font"
+                        }
+                      },
+                      {
+                        "type": "sketch.ui.common.Image",
+                        "version": 6,
+                        "id": "745114eb-ff18-1636-784e-f850fc9c8794",
+                        "properties": {
+                          "width": 50,
+                          "height": 50,
+                          "name": "Image [22e57d94-e2e8-5098-53cf-e3535ae79a84]",
+                          "left": 14,
+                          "top": 8,
+                          "source.width": 64,
+                          "source.height": 64,
+                          "source.url": "https://cdn0.iconfinder.com/data/icons/famale/512/famale_1-64.png",
+                          "source.__type__": "sketch.framework.ImageSourceURL",
+                          "clipSelf": true
+                        }
+                      },
+                      {
+                        "type": "sketch.ui.android.Checkbox",
+                        "version": 1,
+                        "id": "5f8fd9a6-d148-7f72-1a49-3961907fb2ca",
+                        "properties": {
+                          "width": 36,
+                          "name": "Asset [315bf2d6-27ce-6ca1-0d07-94bdbcc0e085]",
+                          "left": 398,
+                          "top": 23,
+                          "templateId": "ui.android.templates.CheckBoxTemplate",
+                          "text": "",
+                          "height": 21
+                        },
+                        "states": {
+                          "default": {
+                            "properties": {}
+                          }
+                        }
+                      }
+                    ],
+                    "states": {
+                      "default": {
+                        "properties": {}
+                      }
+                    }
+                  }
+                ],
+                "states": {
+                  "default": {
+                    "properties": {}
+                  }
+                }
+              },
+              {
+                "type": "sketch.ui.android.ImageTextButton",
+                "version": 1,
+                "id": "adfbf595-a4cc-c80e-bd07-620721eb6482",
+                "properties": {
+                  "name": "Asset [adfbf595-a4cc-c80e-bd07-620721eb6482]",
+                  "left": 0,
+                  "top": 750,
+                  "templateId": "ui.android.templates.ImageTextButtonTemplate",
+                  "width": 450,
+                  "height": 50,
+                  "anchor.bottom": true,
+                  "anchor.__type__": "sketch.framework.Anchor",
+                  "text": "Lancer l'invit'"
+                },
+                "states": {
+                  "default": {
+                    "properties": {}
+                  }
+                }
+              },
+              {
+                "type": "sketch.ui.common.Image",
+                "version": 6,
+                "id": "01c73eef-e9e4-bc19-a426-d3760a11e0de",
+                "properties": {
+                  "width": 40,
+                  "height": 40,
+                  "left": 106,
+                  "top": 305,
+                  "source.width": 17,
+                  "source.height": 78,
+                  "source.url": "https://ninjastorage.blob.core.windows.net/companyfiles/1887955/e1ae0547-afc8-40d7-8842-ab101690cb79.png",
+                  "source.__type__": "sketch.framework.ImageSourceURL",
+                  "clipSelf": true
+                }
+              },
+              {
+                "type": "sketch.ui.common.Image",
+                "version": 6,
+                "id": "871864d4-f45e-0dac-5592-522836ea9a49",
+                "properties": {
+                  "width": 40,
+                  "height": 40,
+                  "left": 87,
+                  "top": 305,
+                  "source.width": 17,
+                  "source.height": 78,
+                  "source.url": "https://ninjastorage.blob.core.windows.net/companyfiles/1887955/e1ae0547-afc8-40d7-8842-ab101690cb79.png",
+                  "source.__type__": "sketch.framework.ImageSourceURL",
+                  "clipSelf": true
+                }
+              },
+              {
+                "type": "sketch.ui.common.Image",
+                "version": 6,
+                "id": "cca12915-ca42-bee3-0481-c9dbbc8769e0",
+                "properties": {
+                  "width": 40,
+                  "height": 40,
+                  "left": 123,
+                  "top": 305,
+                  "clipSelf": true,
+                  "source.width": 17,
+                  "source.height": 78,
+                  "source.url": "https://ninjastorage.blob.core.windows.net/companyfiles/1887955/f6adc212-31a8-47ad-a565-6d1e1bb63230.png",
+                  "source.__type__": "sketch.framework.ImageSourceURL"
+                }
+              },
+              {
+                "type": "sketch.ui.common.Image",
+                "version": 6,
+                "id": "48ebb9f6-6d0b-8f60-b90b-1ae77bb9a16c",
+                "properties": {
+                  "width": 40,
+                  "height": 40,
+                  "left": 139,
+                  "top": 305,
+                  "source.width": 17,
+                  "source.height": 78,
+                  "source.url": "https://ninjastorage.blob.core.windows.net/companyfiles/1887955/f6adc212-31a8-47ad-a565-6d1e1bb63230.png",
+                  "source.__type__": "sketch.framework.ImageSourceURL",
+                  "clipSelf": true
+                }
+              }
+            ],
+            "panelProperties": {
+              "type": "sketch.ui.common.PortableDevicePanel",
+              "version": 1,
+              "id": "c5b71d77-c79d-5212-ede9-20d2564830b1",
+              "properties": {
+                "width": 450,
+                "height": 800,
+                "left": 1340,
+                "top": 760,
+                "clipSelf": true
+              }
+            }
+          }
+        ],
+        "isDeleted": false,
+        "groupId": 1,
+        "screenType": "Android"
+      },
+      {
+        "version": 1,
+        "id": "c7c2526b-4593-7fe6-aaf7-7fbb10e7b3af",
+        "type": "sketch.ui.pages.PortableDevicePage",
+        "name": "Menu",
+        "background": {
+          "value": "rgba(150,198,230,1)",
+          "type": "color",
+          "lineWidth": null,
+          "__type__": "sketch.framework.Brush"
+        },
+        "children": [
+          {
+            "type": "sketch.ui.common.PortableDevice",
+            "version": 1,
+            "id": "9c1e418e-3151-6f5e-78ea-876909de9aac",
+            "properties": {
+              "width": 3130,
+              "height": 2320,
+              "background.value": "rgba(150,198,230,1)",
+              "background.type": "color",
+              "background.__type__": "sketch.framework.Brush"
+            },
+            "children": [
+              {
+                "type": "sketch.framework.Rectangle",
+                "version": 3,
+                "id": "9c6eb7ee-baf7-b999-9f8d-b52196fe2a50",
+                "properties": {
+                  "left": -1340,
+                  "top": -760
+                }
+              },
+              {
+                "type": "sketch.ui.android.ActionBar",
+                "version": 1,
+                "id": "25fb1bba-67f0-3f8d-c487-d42062591b89",
+                "properties": {
+                  "name": "Action Bar [746]",
+                  "left": 0,
+                  "top": 0,
+                  "backgroundBrush.value": "rgba(224,224,224,1)",
+                  "backgroundBrush.type": "color",
+                  "backgroundBrush.__type__": "sketch.framework.Brush",
+                  "enableGroupLocking": true,
+                  "templateId": "ui.android.templates.ActionBarTemplate"
+                },
+                "tags": "Bar",
+                "children": [
+                  {
+                    "type": "sketch.ui.common.Icon",
+                    "version": 6,
+                    "id": "a960cefe-f2e6-09a1-8fcf-4a046ae7787b",
+                    "properties": {
+                      "width": 30,
+                      "height": 30,
+                      "name": "Icon [102]",
+                      "left": 420,
+                      "top": 10,
+                      "anchor.left": false,
+                      "anchor.right": true,
+                      "anchor.__type__": "sketch.framework.Anchor",
+                      "backgroundBrush.value": "default.text",
+                      "backgroundBrush.type": "resource",
+                      "backgroundBrush.lineWidth": 0,
+                      "backgroundBrush.__type__": "sketch.framework.Brush",
+                      "borderBrush.lineWidth": 0,
+                      "borderBrush.__type__": "sketch.framework.Brush",
+                      "source.name": "NavigationMore",
+                      "source.__type__": "sketch.framework.ImageSourceFont",
+                      "clipSelf": true
+                    }
+                  },
+                  {
+                    "type": "sketch.ui.common.Icon",
+                    "version": 6,
+                    "id": "0e69df2a-2754-9d9d-b112-521eabb4f577",
+                    "properties": {
+                      "width": 25,
+                      "height": 42,
+                      "name": "Icon [2414]",
+                      "top": 5,
+                      "source.name": "NavigationPreviousItem",
+                      "source.__type__": "sketch.framework.ImageSourceFont",
+                      "clipSelf": true
+                    }
+                  },
+                  {
+                    "type": "sketch.ui.common.Icon",
+                    "version": 6,
+                    "id": "e785d7a2-81f5-7f23-101b-4da79d5dbab8",
+                    "properties": {
+                      "width": 36,
+                      "height": 48,
+                      "name": "Icon [5129]",
+                      "left": 25,
+                      "source.width": 56,
+                      "source.height": 57,
+                      "source.url": "https://ninjastorage.blob.core.windows.net/companyfiles/1887955/a9e8f8da-f093-412c-ab97-8c60e447d5e0.png",
+                      "source.__type__": "sketch.framework.ImageSourceURL",
+                      "clipSelf": true
+                    }
+                  },
+                  {
+                    "type": "sketch.ui.common.Label",
+                    "version": 3,
+                    "id": "bf3f11db-8392-c536-2c81-2b7f27fbb8a5",
+                    "properties": {
+                      "width": 136,
+                      "height": 48,
+                      "name": "Label [5148]",
+                      "left": 66,
+                      "text": "Mon garde manger",
+                      "textVerticalAlign": "middle"
+                    }
+                  }
+                ],
+                "states": {
+                  "default": {
+                    "properties": {}
+                  }
+                }
+              },
+              {
+                "type": "sketch.ui.android.List",
+                "version": 1,
+                "id": "c95996f6-faba-5058-f79d-0aa299b5e5ca",
+                "properties": {
+                  "height": 486,
+                  "name": "List [1426]",
+                  "left": 0,
+                  "top": 278,
+                  "backgroundBrush.value": "rgba(240,240,240,1)",
+                  "backgroundBrush.type": "color",
+                  "backgroundBrush.__type__": "sketch.framework.Brush",
+                  "dropPositioning": "vertical",
+                  "enableGroupLocking": true,
+                  "templateId": "ui.android.templates.ListTemplate",
+                  "pageLink": "65e6460d-f618-ebe7-fbbc-f6ee47d5fcc9"
+                },
+                "tags": "List",
+                "children": [
+                  {
+                    "type": "sketch.ui.android.ListItem",
+                    "version": 1,
+                    "id": "faf94532-c549-70c5-02f1-24b36fd91229",
+                    "properties": {
+                      "name": "List item [274]",
+                      "left": 0,
+                      "top": 0,
+                      "horizontalAlignment": "stretch",
+                      "backgroundBrush.value": {
+                        "sliders": [
+                          [
+                            0,
+                            "rgba(255,255,255,1)"
+                          ],
+                          [
+                            100,
+                            "rgba(178,222,166,1)"
+                          ],
+                          [
+                            10,
+                            "#f0f0f0"
+                          ],
+                          [
+                            16,
+                            "#f0f0f0"
+                          ]
+                        ],
+                        "direction": "down"
+                      },
+                      "backgroundBrush.type": "gradient",
+                      "backgroundBrush.__type__": "sketch.framework.Brush",
+                      "enableGroupLocking": true,
+                      "templateId": "ui.android.templates.ListItemTemplate"
+                    },
+                    "tags": "ListItem",
+                    "children": [
+                      {
+                        "type": "sketch.ui.common.Label",
+                        "version": 3,
+                        "id": "ff899fe8-fc2e-23ec-9ae0-0c4f893065b1",
+                        "properties": {
+                          "width": 180,
+                          "height": 25,
+                          "name": "Label [2524]",
+                          "left": 74,
+                          "top": 15,
+                          "anchor.__type__": "sketch.framework.Anchor",
+                          "backgroundBrush.lineWidth": 0,
+                          "backgroundBrush.__type__": "sketch.framework.Brush",
+                          "borderBrush.lineWidth": 0,
+                          "borderBrush.__type__": "sketch.framework.Brush",
+                          "text": "Mardi - Fredo",
+                          "font.size": 28,
+                          "font.bold": true,
+                          "font.color.value": "default.text",
+                          "font.color.type": "resource",
+                          "font.color.__type__": "sketch.framework.Brush",
+                          "font.__type__": "sketch.framework.Font"
+                        }
+                      },
+                      {
+                        "type": "sketch.ui.common.Label",
+                        "version": 3,
+                        "id": "c9b6c172-25d5-d733-61c9-ce39c7a3b306",
+                        "properties": {
+                          "width": 176,
+                          "height": 24,
+                          "name": "Label [2525]",
+                          "left": 83,
+                          "top": 40,
+                          "anchor.__type__": "sketch.framework.Anchor",
+                          "backgroundBrush.lineWidth": 0,
+                          "backgroundBrush.__type__": "sketch.framework.Brush",
+                          "borderBrush.lineWidth": 0,
+                          "borderBrush.__type__": "sketch.framework.Brush",
+                          "text": "Soupe façon kebab",
+                          "font.size": 28,
+                          "font.color.value": "default.text",
+                          "font.color.type": "resource",
+                          "font.color.__type__": "sketch.framework.Brush",
+                          "font.__type__": "sketch.framework.Font",
+                          "multiLine": true
+                        }
+                      },
+                      {
+                        "type": "sketch.ui.common.Icon",
+                        "version": 6,
+                        "id": "ebc6c15d-e33a-fa6c-c1ee-c6b19da421bb",
+                        "properties": {
+                          "width": 40,
+                          "height": 40,
+                          "name": "Icon [7f135fdd-932e-1348-d4b8-dfb3ae198cf4]",
+                          "left": 394,
+                          "top": 7,
+                          "source.name": "NavigationAccept",
+                          "source.__type__": "sketch.framework.ImageSourceFont",
+                          "clipSelf": true
+                        }
+                      },
+                      {
+                        "type": "sketch.ui.common.Image",
+                        "version": 6,
+                        "id": "be406cc8-717d-71c8-0c37-504250401aeb",
+                        "properties": {
+                          "width": 50,
+                          "height": 50,
+                          "name": "Image [fce41c77-b2a2-56b1-f541-35bf0a89b531]",
+                          "left": 14,
+                          "top": 7,
+                          "source.width": 56,
+                          "source.height": 64,
+                          "source.url": "https://cdn0.iconfinder.com/data/icons/shift-avatar/32/Jonathan-64.png",
+                          "source.__type__": "sketch.framework.ImageSourceURL",
+                          "clipSelf": true
+                        }
+                      }
+                    ],
+                    "states": {
+                      "default": {
+                        "properties": {}
+                      }
+                    }
+                  },
+                  {
+                    "type": "sketch.ui.android.ListItem",
+                    "version": 1,
+                    "id": "07a783be-1c21-9ec3-7266-bdf262786e90",
+                    "properties": {
+                      "name": "List item [274]",
+                      "left": 0,
+                      "top": 65,
+                      "horizontalAlignment": "stretch",
+                      "backgroundBrush.value": {
+                        "sliders": [
+                          [
+                            0,
+                            "rgba(255,255,255,1)"
+                          ]
+                        ],
+                        "direction": "down"
+                      },
+                      "backgroundBrush.type": "gradient",
+                      "backgroundBrush.__type__": "sketch.framework.Brush",
+                      "enableGroupLocking": true,
+                      "templateId": "ui.android.templates.ListItemTemplate"
+                    },
+                    "tags": "ListItem",
+                    "children": [
+                      {
+                        "type": "sketch.ui.common.Label",
+                        "version": 3,
+                        "id": "38ea686e-87e8-0233-e519-98ff7a4a3a34",
+                        "properties": {
+                          "width": 180,
+                          "height": 25,
+                          "name": "Label [2524]",
+                          "left": 74,
+                          "top": 10,
+                          "anchor.__type__": "sketch.framework.Anchor",
+                          "backgroundBrush.lineWidth": 0,
+                          "backgroundBrush.__type__": "sketch.framework.Brush",
+                          "borderBrush.lineWidth": 0,
+                          "borderBrush.__type__": "sketch.framework.Brush",
+                          "text": "Vendredi - Babette",
+                          "font.size": 28,
+                          "font.bold": true,
+                          "font.color.value": "default.text",
+                          "font.color.type": "resource",
+                          "font.color.__type__": "sketch.framework.Brush",
+                          "font.__type__": "sketch.framework.Font"
+                        }
+                      },
+                      {
+                        "type": "sketch.ui.common.Label",
+                        "version": 3,
+                        "id": "534ca012-8fd7-fa0f-ff46-6da32a6076e6",
+                        "properties": {
+                          "width": 176,
+                          "height": 24,
+                          "name": "Label [2525]",
+                          "left": 83,
+                          "top": 40,
+                          "anchor.__type__": "sketch.framework.Anchor",
+                          "backgroundBrush.lineWidth": 0,
+                          "backgroundBrush.__type__": "sketch.framework.Brush",
+                          "borderBrush.lineWidth": 0,
+                          "borderBrush.__type__": "sketch.framework.Brush",
+                          "text": "Pizza du Ch'ti",
+                          "font.size": 28,
+                          "font.color.value": "default.text",
+                          "font.color.type": "resource",
+                          "font.color.__type__": "sketch.framework.Brush",
+                          "font.__type__": "sketch.framework.Font",
+                          "multiLine": true
+                        }
+                      },
+                      {
+                        "type": "sketch.ui.common.Icon",
+                        "version": 6,
+                        "id": "fd25ca1e-90ea-52ba-8383-9a3f2d6d2ec0",
+                        "properties": {
+                          "width": 40,
+                          "height": 40,
+                          "name": "Icon [5bf3adb6-6550-c02f-6828-e49cf2cccf5d]",
+                          "left": 394,
+                          "top": 12,
+                          "backgroundBrush.value": "rgba(201,50,50,1)",
+                          "backgroundBrush.type": "color",
+                          "backgroundBrush.lineWidth": 0,
+                          "backgroundBrush.__type__": "sketch.framework.Brush",
+                          "source.name": "ContentRemove",
+                          "source.__type__": "sketch.framework.ImageSourceFont",
+                          "clipSelf": true
+                        }
+                      },
+                      {
+                        "type": "sketch.ui.common.Icon",
+                        "version": 6,
+                        "id": "b9cee9a4-725e-1c34-71ba-ba0b8c4e4bab",
+                        "properties": {
+                          "width": 40,
+                          "height": 40,
+                          "name": "Icon [5bf3adb6-6550-c02f-6828-e49cf2cccf5d]",
+                          "left": 345,
+                          "top": 12,
+                          "backgroundBrush.value": "rgba(100,189,76,1)",
+                          "backgroundBrush.type": "color",
+                          "backgroundBrush.lineWidth": 0,
+                          "backgroundBrush.__type__": "sketch.framework.Brush",
+                          "source.name": "ContentNew",
+                          "source.__type__": "sketch.framework.ImageSourceFont",
+                          "clipSelf": true
+                        }
+                      },
+                      {
+                        "type": "sketch.ui.common.Image",
+                        "version": 6,
+                        "id": "c7cdf87f-e471-d46a-3e7a-5aa5b08be372",
+                        "properties": {
+                          "width": 50,
+                          "height": 50,
+                          "name": "Image [22e57d94-e2e8-5098-53cf-e3535ae79a84]",
+                          "left": 14,
+                          "top": 7,
+                          "source.width": 64,
+                          "source.height": 64,
+                          "source.url": "https://cdn0.iconfinder.com/data/icons/famale/512/famale_1-64.png",
+                          "source.__type__": "sketch.framework.ImageSourceURL",
+                          "clipSelf": true
+                        }
+                      }
+                    ],
+                    "states": {
+                      "default": {
+                        "properties": {}
+                      }
+                    }
+                  },
+                  {
+                    "type": "sketch.ui.android.ListItem",
+                    "version": 1,
+                    "id": "b2b4de06-c9fe-1c2a-c740-90ab7167db9c",
+                    "properties": {
+                      "name": "List item [274]",
+                      "left": 0,
+                      "top": 130,
+                      "horizontalAlignment": "stretch",
+                      "backgroundBrush.value": {
+                        "sliders": [
+                          [
+                            0,
+                            "rgba(255,255,255,1)"
+                          ],
+                          [
+                            100,
+                            "rgba(178,222,166,1)"
+                          ],
+                          [
+                            10,
+                            "#f0f0f0"
+                          ],
+                          [
+                            16,
+                            "#f0f0f0"
+                          ]
+                        ],
+                        "direction": "down"
+                      },
+                      "backgroundBrush.type": "gradient",
+                      "backgroundBrush.__type__": "sketch.framework.Brush",
+                      "enableGroupLocking": true,
+                      "templateId": "ui.android.templates.ListItemTemplate"
+                    },
+                    "tags": "ListItem",
+                    "children": [
+                      {
+                        "type": "sketch.ui.common.Label",
+                        "version": 3,
+                        "id": "12ed513e-c180-5107-8378-3a8036a40e46",
+                        "properties": {
+                          "width": 180,
+                          "height": 25,
+                          "name": "Label [2524]",
+                          "left": 74,
+                          "top": 15,
+                          "anchor.__type__": "sketch.framework.Anchor",
+                          "backgroundBrush.lineWidth": 0,
+                          "backgroundBrush.__type__": "sketch.framework.Brush",
+                          "borderBrush.lineWidth": 0,
+                          "borderBrush.__type__": "sketch.framework.Brush",
+                          "text": "Lundi 4 - Babette",
+                          "font.size": 28,
+                          "font.bold": true,
+                          "font.color.value": "default.text",
+                          "font.color.type": "resource",
+                          "font.color.__type__": "sketch.framework.Brush",
+                          "font.__type__": "sketch.framework.Font"
+                        }
+                      },
+                      {
+                        "type": "sketch.ui.common.Label",
+                        "version": 3,
+                        "id": "baf6d7ce-9985-3c1e-524f-07dd94598dbc",
+                        "properties": {
+                          "width": 176,
+                          "height": 24,
+                          "name": "Label [2525]",
+                          "left": 83,
+                          "top": 40,
+                          "anchor.__type__": "sketch.framework.Anchor",
+                          "backgroundBrush.lineWidth": 0,
+                          "backgroundBrush.__type__": "sketch.framework.Brush",
+                          "borderBrush.lineWidth": 0,
+                          "borderBrush.__type__": "sketch.framework.Brush",
+                          "text": "Burger à l'italienne",
+                          "font.size": 28,
+                          "font.color.value": "default.text",
+                          "font.color.type": "resource",
+                          "font.color.__type__": "sketch.framework.Brush",
+                          "font.__type__": "sketch.framework.Font",
+                          "multiLine": true
+                        }
+                      },
+                      {
+                        "type": "sketch.ui.common.Icon",
+                        "version": 6,
+                        "id": "76b2c56d-cc92-8710-b7e6-5c7f1c161d83",
+                        "properties": {
+                          "width": 40,
+                          "height": 40,
+                          "name": "Icon [7f135fdd-932e-1348-d4b8-dfb3ae198cf4]",
+                          "left": 394,
+                          "top": 7,
+                          "source.name": "NavigationAccept",
+                          "source.__type__": "sketch.framework.ImageSourceFont",
+                          "clipSelf": true
+                        }
+                      },
+                      {
+                        "type": "sketch.ui.common.Image",
+                        "version": 6,
+                        "id": "176eda1b-6915-b445-791d-ad3c66f016b8",
+                        "properties": {
+                          "width": 50,
+                          "height": 50,
+                          "name": "Image [22e57d94-e2e8-5098-53cf-e3535ae79a84]",
+                          "left": 14,
+                          "top": 7,
+                          "source.width": 64,
+                          "source.height": 64,
+                          "source.url": "https://cdn0.iconfinder.com/data/icons/famale/512/famale_1-64.png",
+                          "source.__type__": "sketch.framework.ImageSourceURL",
+                          "clipSelf": true
+                        }
+                      }
+                    ],
+                    "states": {
+                      "default": {
+                        "properties": {}
+                      }
+                    }
+                  },
+                  {
+                    "type": "sketch.ui.android.ListItem",
+                    "version": 1,
+                    "id": "c4156725-de2b-1ba5-2b2c-88fe2d154aba",
+                    "properties": {
+                      "name": "List item [274]",
+                      "left": 0,
+                      "top": 195,
+                      "horizontalAlignment": "stretch",
+                      "backgroundBrush.value": {
+                        "sliders": [
+                          [
+                            0,
+                            "rgba(255,255,255,1)"
+                          ]
+                        ],
+                        "direction": "down"
+                      },
+                      "backgroundBrush.type": "gradient",
+                      "backgroundBrush.__type__": "sketch.framework.Brush",
+                      "enableGroupLocking": true,
+                      "templateId": "ui.android.templates.ListItemTemplate"
+                    },
+                    "tags": "ListItem",
+                    "children": [
+                      {
+                        "type": "sketch.ui.common.Label",
+                        "version": 3,
+                        "id": "9e63b98c-1d57-f4b6-a560-a5959d8f6fd6",
+                        "properties": {
+                          "width": 180,
+                          "height": 25,
+                          "name": "Label [2524]",
+                          "left": 74,
+                          "top": 15,
+                          "anchor.__type__": "sketch.framework.Anchor",
+                          "backgroundBrush.lineWidth": 0,
+                          "backgroundBrush.__type__": "sketch.framework.Brush",
+                          "borderBrush.lineWidth": 0,
+                          "borderBrush.__type__": "sketch.framework.Brush",
+                          "text": "Mercredi 6- Jacky",
+                          "font.size": 28,
+                          "font.bold": true,
+                          "font.color.value": "default.text",
+                          "font.color.type": "resource",
+                          "font.color.__type__": "sketch.framework.Brush",
+                          "font.__type__": "sketch.framework.Font"
+                        }
+                      },
+                      {
+                        "type": "sketch.ui.common.Label",
+                        "version": 3,
+                        "id": "1e9397fa-0613-70b7-b692-f78ff9fe01bc",
+                        "properties": {
+                          "width": 176,
+                          "height": 24,
+                          "name": "Label [2525]",
+                          "left": 83,
+                          "top": 40,
+                          "anchor.__type__": "sketch.framework.Anchor",
+                          "backgroundBrush.lineWidth": 0,
+                          "backgroundBrush.__type__": "sketch.framework.Brush",
+                          "borderBrush.lineWidth": 0,
+                          "borderBrush.__type__": "sketch.framework.Brush",
+                          "text": "Purée knacki",
+                          "font.size": 28,
+                          "font.color.value": "default.text",
+                          "font.color.type": "resource",
+                          "font.color.__type__": "sketch.framework.Brush",
+                          "font.__type__": "sketch.framework.Font",
+                          "multiLine": true
+                        }
+                      },
+                      {
+                        "type": "sketch.ui.common.Image",
+                        "version": 6,
+                        "id": "b9a775e7-4eac-5647-8342-c3f9592e2a1f",
+                        "properties": {
+                          "width": 50,
+                          "height": 50,
+                          "name": "Image [22e57d94-e2e8-5098-53cf-e3535ae79a84]",
+                          "left": 14,
+                          "top": 7,
+                          "source.width": 64,
+                          "source.height": 64,
+                          "source.url": "https://cdn0.iconfinder.com/data/icons/avatars-7/128/01-64.png",
+                          "source.__type__": "sketch.framework.ImageSourceURL",
+                          "clipSelf": true
+                        }
+                      },
+                      {
+                        "type": "sketch.ui.common.Icon",
+                        "version": 6,
+                        "id": "278131cb-59be-86e6-5b0d-c2991ccf579a",
+                        "properties": {
+                          "width": 40,
+                          "height": 40,
+                          "name": "Icon [5bf3adb6-6550-c02f-6828-e49cf2cccf5d]",
+                          "left": 394,
+                          "top": 12,
+                          "backgroundBrush.value": "rgba(201,50,50,1)",
+                          "backgroundBrush.type": "color",
+                          "backgroundBrush.__type__": "sketch.framework.Brush",
+                          "source.name": "ContentRemove",
+                          "source.__type__": "sketch.framework.ImageSourceFont",
+                          "clipSelf": true
+                        }
+                      },
+                      {
+                        "type": "sketch.ui.common.Icon",
+                        "version": 6,
+                        "id": "02189fd3-2af2-31c7-eb91-017e76da922d",
+                        "properties": {
+                          "width": 40,
+                          "height": 40,
+                          "name": "Icon [5bf3adb6-6550-c02f-6828-e49cf2cccf5d]",
+                          "left": 345,
+                          "top": 12,
+                          "backgroundBrush.value": "rgba(100,189,76,1)",
+                          "backgroundBrush.type": "color",
+                          "backgroundBrush.lineWidth": 0,
+                          "backgroundBrush.__type__": "sketch.framework.Brush",
+                          "source.name": "ContentNew",
+                          "source.__type__": "sketch.framework.ImageSourceFont",
+                          "clipSelf": true
+                        }
+                      }
+                    ],
+                    "states": {
+                      "default": {
+                        "properties": {}
+                      }
+                    }
+                  }
+                ],
+                "states": {
+                  "default": {
+                    "properties": {}
+                  }
+                }
+              },
+              {
+                "type": "sketch.ui.common.Label",
+                "version": 3,
+                "id": "9f023f91-50a3-6416-b09e-37f94036e9b2",
+                "properties": {
+                  "width": 215,
+                  "height": 30,
+                  "left": 14,
+                  "top": 247,
+                  "text": "Prochaines gamellades",
+                  "font.size": 35,
+                  "font.__type__": "sketch.framework.Font",
+                  "scaleWithFontSize": true
+                }
+              },
+              {
+                "type": "sketch.ui.common.Label",
+                "version": 3,
+                "id": "6c688360-f161-93a3-4c22-3b0ee2cd696b",
+                "properties": {
+                  "width": 147,
+                  "height": 30,
+                  "left": 9,
+                  "top": 59,
+                  "text": "Agenda du chef",
+                  "font.size": 35,
+                  "font.__type__": "sketch.framework.Font",
+                  "scaleWithFontSize": true
+                }
+              },
+              {
+                "type": "sketch.ui.common.Icon",
+                "version": 6,
+                "id": "74eeabf7-65fd-794c-fa0d-3e3bfc4262ae",
+                "properties": {
+                  "width": 40,
+                  "height": 35,
+                  "left": 173,
+                  "top": 57,
+                  "pageLink": "82fa8e6e-88d5-fd42-3dbb-1a8c9f1d21c1",
+                  "source.width": 64,
+                  "source.height": 64,
+                  "source.url": "https://cdn0.iconfinder.com/data/icons/small-n-flat/24/678092-sign-add-64.png",
+                  "source.__type__": "sketch.framework.ImageSourceURL",
+                  "clipSelf": true
+                }
+              },
+              {
+                "type": "sketch.ui.android.List",
+                "version": 1,
+                "id": "f826236d-0979-3ebc-2641-8d0665773f6e",
+                "properties": {
+                  "height": 135,
+                  "name": "List [1426]",
+                  "left": 0,
+                  "top": 95,
+                  "backgroundBrush.value": "rgba(255,255,255,1)",
+                  "backgroundBrush.type": "color",
+                  "backgroundBrush.__type__": "sketch.framework.Brush",
+                  "dropPositioning": "vertical",
+                  "enableGroupLocking": true,
+                  "templateId": "ui.android.templates.ListTemplate",
+                  "width": 450,
+                  "pageLink": "65e6460d-f618-ebe7-fbbc-f6ee47d5fcc9"
+                },
+                "tags": "List",
+                "children": [
+                  {
+                    "type": "sketch.ui.android.ListItem",
+                    "version": 1,
+                    "id": "385b6299-be1d-37f3-0a69-e2706b0b0060",
+                    "properties": {
+                      "name": "List item [274]",
+                      "left": 0,
+                      "top": 0,
+                      "horizontalAlignment": "stretch",
+                      "enableGroupLocking": true,
+                      "templateId": "ui.android.templates.ListItemTemplate"
+                    },
+                    "tags": "ListItem",
+                    "children": [
+                      {
+                        "type": "sketch.ui.common.Label",
+                        "version": 3,
+                        "id": "30222e8d-a1d5-00a4-6e80-3b712b204260",
+                        "properties": {
+                          "width": 180,
+                          "height": 25,
+                          "name": "Label [2524]",
+                          "left": 20,
+                          "top": 15,
+                          "anchor.__type__": "sketch.framework.Anchor",
+                          "backgroundBrush.lineWidth": 0,
+                          "backgroundBrush.__type__": "sketch.framework.Brush",
+                          "borderBrush.lineWidth": 0,
+                          "borderBrush.__type__": "sketch.framework.Brush",
+                          "text": "Demain",
+                          "font.size": 28,
+                          "font.bold": true,
+                          "font.color.value": "default.text",
+                          "font.color.type": "resource",
+                          "font.color.__type__": "sketch.framework.Brush",
+                          "font.__type__": "sketch.framework.Font"
+                        }
+                      },
+                      {
+                        "type": "sketch.ui.common.Label",
+                        "version": 3,
+                        "id": "c664becc-5648-ef9b-4211-becea56fbfa9",
+                        "properties": {
+                          "width": 235,
+                          "height": 24,
+                          "name": "Label [2525]",
+                          "left": 24,
+                          "top": 40,
+                          "anchor.__type__": "sketch.framework.Anchor",
+                          "backgroundBrush.lineWidth": 0,
+                          "backgroundBrush.__type__": "sketch.framework.Brush",
+                          "borderBrush.lineWidth": 0,
+                          "borderBrush.__type__": "sketch.framework.Brush",
+                          "text": "Canard laqué aux pruneaux",
+                          "font.size": 28,
+                          "font.color.value": "default.text",
+                          "font.color.type": "resource",
+                          "font.color.__type__": "sketch.framework.Brush",
+                          "font.__type__": "sketch.framework.Font",
+                          "multiLine": true
+                        }
+                      },
+                      {
+                        "type": "sketch.ui.common.Icon",
+                        "version": 6,
+                        "id": "dc717820-a9ed-a89b-399d-318925332a34",
+                        "properties": {
+                          "width": 40,
+                          "height": 40,
+                          "name": "Icon [2aeed20d-56b6-bc24-cfe9-83f9d0047284]",
+                          "left": 336,
+                          "top": 12,
+                          "backgroundBrush.value": "rgba(100,189,76,1)",
+                          "backgroundBrush.type": "color",
+                          "backgroundBrush.__type__": "sketch.framework.Brush",
+                          "source.name": "SocialGroup",
+                          "source.__type__": "sketch.framework.ImageSourceFont",
+                          "clipSelf": true
+                        }
+                      }
+                    ],
+                    "states": {
+                      "default": {
+                        "properties": {}
+                      }
+                    }
+                  },
+                  {
+                    "type": "sketch.ui.android.ListItem",
+                    "version": 1,
+                    "id": "3032a6e7-2ed6-1cd8-3af0-c47968ae2621",
+                    "properties": {
+                      "name": "List item [274]",
+                      "left": 0,
+                      "top": 65,
+                      "horizontalAlignment": "stretch",
+                      "enableGroupLocking": true,
+                      "templateId": "ui.android.templates.ListItemTemplate"
+                    },
+                    "tags": "ListItem",
+                    "children": [
+                      {
+                        "type": "sketch.ui.common.Label",
+                        "version": 3,
+                        "id": "0e5461cf-6bb4-8dc8-ba9e-7b3030fc8bb5",
+                        "properties": {
+                          "width": 180,
+                          "height": 25,
+                          "name": "Label [2524]",
+                          "left": 20,
+                          "top": 15,
+                          "anchor.__type__": "sketch.framework.Anchor",
+                          "backgroundBrush.lineWidth": 0,
+                          "backgroundBrush.__type__": "sketch.framework.Brush",
+                          "borderBrush.lineWidth": 0,
+                          "borderBrush.__type__": "sketch.framework.Brush",
+                          "text": "Vendredi",
+                          "font.size": 28,
+                          "font.bold": true,
+                          "font.color.value": "default.text",
+                          "font.color.type": "resource",
+                          "font.color.__type__": "sketch.framework.Brush",
+                          "font.__type__": "sketch.framework.Font"
+                        }
+                      },
+                      {
+                        "type": "sketch.ui.common.Label",
+                        "version": 3,
+                        "id": "4853943a-7ea2-4cda-7990-77eb4122053a",
+                        "properties": {
+                          "width": 176,
+                          "height": 24,
+                          "name": "Label [2525]",
+                          "left": 24,
+                          "top": 40,
+                          "anchor.__type__": "sketch.framework.Anchor",
+                          "backgroundBrush.lineWidth": 0,
+                          "backgroundBrush.__type__": "sketch.framework.Brush",
+                          "borderBrush.lineWidth": 0,
+                          "borderBrush.__type__": "sketch.framework.Brush",
+                          "text": "Hot dog ketchup",
+                          "font.size": 28,
+                          "font.color.value": "default.text",
+                          "font.color.type": "resource",
+                          "font.color.__type__": "sketch.framework.Brush",
+                          "font.__type__": "sketch.framework.Font",
+                          "multiLine": true
+                        }
+                      },
+                      {
+                        "type": "sketch.ui.common.Label",
+                        "version": 3,
+                        "id": "321021b7-3f6a-6cee-fe1f-b7e983b5da90",
+                        "properties": {
+                          "width": 49,
+                          "height": 25,
+                          "name": "Label [2524]",
+                          "left": 385,
+                          "top": 23,
+                          "anchor.__type__": "sketch.framework.Anchor",
+                          "backgroundBrush.lineWidth": 0,
+                          "backgroundBrush.__type__": "sketch.framework.Brush",
+                          "borderBrush.lineWidth": 0,
+                          "borderBrush.__type__": "sketch.framework.Brush",
+                          "text": "1/3",
+                          "font.size": 28,
+                          "font.bold": true,
+                          "font.color.value": "default.text",
+                          "font.color.type": "resource",
+                          "font.color.__type__": "sketch.framework.Brush",
+                          "font.__type__": "sketch.framework.Font"
+                        }
+                      },
+                      {
+                        "type": "sketch.ui.common.Icon",
+                        "version": 6,
+                        "id": "db8f792f-66b2-eab5-b11e-c98e05a153d2",
+                        "properties": {
+                          "width": 40,
+                          "height": 40,
+                          "name": "Icon [2aeed20d-56b6-bc24-cfe9-83f9d0047284]",
+                          "left": 336,
+                          "top": 15,
+                          "backgroundBrush.value": "rgba(201,50,50,1)",
+                          "backgroundBrush.type": "color",
+                          "backgroundBrush.__type__": "sketch.framework.Brush",
+                          "source.name": "SocialGroup",
+                          "source.__type__": "sketch.framework.ImageSourceFont",
+                          "clipSelf": true
+                        }
+                      }
+                    ],
+                    "states": {
+                      "default": {
+                        "properties": {}
+                      }
+                    }
+                  }
+                ],
+                "states": {
+                  "default": {
+                    "properties": {}
+                  }
+                }
+              },
+              {
+                "type": "sketch.framework.Rectangle",
+                "version": 3,
+                "id": "a6343ae1-b116-e99d-94b5-c5e0e8ca3ca0",
+                "properties": {
+                  "width": 229,
+                  "height": 647,
+                  "left": 0,
+                  "top": 153,
+                  "backgroundBrush.value": "rgba(245,245,245,1)",
+                  "backgroundBrush.type": "color",
+                  "backgroundBrush.__type__": "sketch.framework.Brush"
+                }
+              },
+              {
+                "type": "sketch.framework.Rectangle",
+                "version": 3,
+                "id": "3d3f11b0-e9a4-7784-a059-6a32524d233d",
+                "properties": {
+                  "width": 229,
+                  "height": 153,
+                  "name": "Rectangle [a6343ae1-b116-e99d-94b5-c5e0e8ca3ca0]",
+                  "left": 0,
+                  "top": 0,
+                  "backgroundBrush.value": "rgba(150,198,230,1)",
+                  "backgroundBrush.type": "color",
+                  "backgroundBrush.__type__": "sketch.framework.Brush"
+                }
+              },
+              {
+                "type": "sketch.ui.common.Icon",
+                "version": 6,
+                "id": "a6b7d301-c0e7-572e-b122-53f4aef6effb",
+                "properties": {
+                  "width": 40,
+                  "height": 40,
+                  "left": 19,
+                  "top": 175,
+                  "clipSelf": true,
+                  "source.name": "ContentPaste",
+                  "source.__type__": "sketch.framework.ImageSourceFont"
+                }
+              },
+              {
+                "type": "sketch.ui.common.Label",
+                "version": 3,
+                "id": "4df06d61-9f06-9855-9e0b-d3109f80ddd9",
+                "properties": {
+                  "width": 64,
+                  "height": 26,
+                  "left": 64,
+                  "top": 182,
+                  "text": "Ardoise",
+                  "scaleWithFontSize": true,
+                  "font.__type__": "sketch.framework.Font"
+                }
+              },
+              {
+                "type": "sketch.ui.common.Label",
+                "version": 3,
+                "id": "bc51d761-80a0-683a-d06d-46fe75634538",
+                "properties": {
+                  "width": 156,
+                  "height": 26,
+                  "left": 9,
+                  "top": 114,
+                  "text": "Jean Michel Melle",
+                  "scaleWithFontSize": true
+                }
+              },
+              {
+                "type": "sketch.ui.common.Label",
+                "version": 3,
+                "id": "6e94cd8e-8299-48f6-6fd4-7af0e66cfe30",
+                "properties": {
+                  "width": 73,
+                  "height": 26,
+                  "left": 64,
+                  "top": 231,
+                  "text": "Groupes",
+                  "scaleWithFontSize": true,
+                  "font.__type__": "sketch.framework.Font"
+                }
+              },
+              {
+                "type": "sketch.ui.common.Label",
+                "version": 3,
+                "id": "ae5ff450-ce1b-16f2-6de7-76cb1e9fa8b8",
+                "properties": {
+                  "width": 91,
+                  "height": 26,
+                  "left": 64,
+                  "top": 281,
+                  "text": "Mon profil",
+                  "scaleWithFontSize": true,
+                  "font.__type__": "sketch.framework.Font"
+                }
+              },
+              {
+                "type": "sketch.framework.Rectangle",
+                "version": 3,
+                "id": "e4aac29f-5095-6c7f-6679-88002efd1a44",
+                "properties": {
+                  "left": -1340,
+                  "top": -760
+                }
+              },
+              {
+                "type": "sketch.framework.Rectangle",
+                "version": 3,
+                "id": "a27c1ddc-693f-aa08-a48a-59efa719d6e8",
+                "properties": {
+                  "left": -1340,
+                  "top": -760
+                }
+              },
+              {
+                "type": "sketch.ui.common.Icon",
+                "version": 6,
+                "id": "51bf4ae0-6a1b-294d-0677-658fc6be269f",
+                "properties": {
+                  "width": 40,
+                  "height": 40,
+                  "left": 19,
+                  "top": 224,
+                  "clipSelf": true,
+                  "source.name": "SocialGroup",
+                  "source.__type__": "sketch.framework.ImageSourceFont"
+                }
+              },
+              {
+                "type": "sketch.ui.common.Icon",
+                "version": 6,
+                "id": "f6c84ff8-0258-9d89-edbc-9a123f8d472b",
+                "properties": {
+                  "width": 40,
+                  "height": 40,
+                  "left": 19,
+                  "top": 274,
+                  "clipSelf": true,
+                  "source.name": "SocialPerson",
+                  "source.__type__": "sketch.framework.ImageSourceFont"
+                }
+              },
+              {
+                "type": "sketch.ui.common.Image",
+                "version": 6,
+                "id": "84b6113d-cbca-d877-5499-24158a612b3e",
+                "properties": {
+                  "width": 50,
+                  "height": 50,
+                  "left": 18,
+                  "top": 40,
+                  "clipSelf": true,
+                  "source.url": "https://cdn1.iconfinder.com/data/icons/food-drinks-2/512/chief-64.png",
+                  "source.__type__": "sketch.framework.ImageSourceURL"
+                }
+              },
+              {
+                "type": "sketch.ui.common.Image",
+                "version": 6,
+                "id": "45c05e50-7264-fce0-7051-9865e4bd4b15",
+                "properties": {
+                  "width": 50,
+                  "height": 66,
+                  "left": 168,
+                  "top": 15,
+                  "clipSelf": true,
+                  "source.width": 43,
+                  "source.height": 78,
+                  "source.url": "https://ninjastorage.blob.core.windows.net/companyfiles/1887955/0300012b-347e-48ef-81ae-781e48d92c64.png",
+                  "source.__type__": "sketch.framework.ImageSourceURL"
+                }
+              }
+            ],
+            "panelProperties": {
+              "type": "sketch.ui.common.PortableDevicePanel",
+              "version": 1,
+              "id": "c5b71d77-c79d-5212-ede9-20d2564830b1",
+              "properties": {
+                "width": 450,
+                "height": 800,
+                "left": 1340,
+                "top": 760,
+                "clipSelf": true
+              }
+            }
+          },
+          {
+            "type": "sketch.ui.common.Label",
+            "version": 3,
+            "id": "5fe5044e-1cad-f313-32d3-3e914c1b08b1",
+            "properties": {
+              "width": 49,
+              "height": 25,
+              "name": "Label [2524]",
+              "left": 1725,
+              "top": 875,
+              "anchor.__type__": "sketch.framework.Anchor",
+              "backgroundBrush.lineWidth": 0,
+              "backgroundBrush.__type__": "sketch.framework.Brush",
+              "borderBrush.lineWidth": 0,
+              "borderBrush.__type__": "sketch.framework.Brush",
+              "text": "3/3",
+              "font.size": 28,
+              "font.bold": true,
+              "font.color.value": "default.text",
+              "font.color.type": "resource",
+              "font.color.__type__": "sketch.framework.Brush",
+              "font.__type__": "sketch.framework.Font"
+            }
+          }
+        ],
+        "isDeleted": false,
+        "groupId": 1,
+        "screenType": "Android"
+      }
+    ],
+    "resources": {
+      "templates": {},
+      "colorPallet": []
+    },
+    "modelVersion": 4,
+    "version": "85abbc18-bb60-478b-92d7-103c5d13c522",
+    "pageStatuses": [
+      {
+        "pageId": "65e6460d-f618-ebe7-fbbc-f6ee47d5fcc9",
+        "userId": 1887949,
+        "dateTime": "2015-06-09T19:57:43",
+        "projectId": 1888075,
+        "statusId": "designComplete",
+        "statusMessage": "Design complete",
+        "id": 1888218
+      },
+      {
+        "pageId": "82fa8e6e-88d5-fd42-3dbb-1a8c9f1d21c1",
+        "userId": 1887949,
+        "dateTime": "2015-06-09T20:12:52",
+        "projectId": 1888075,
+        "statusId": "inProgress",
+        "statusMessage": "In progress",
+        "id": 1888480
+      }
+    ],
+    "sharedPageStatuses": [
+      "inProgress",
+      "designComplete",
+      "approved"
+    ],
+    "projectType": "AndroidProject",
+    "shareStartupPage": "65e6460d-f618-ebe7-fbbc-f6ee47d5fcc9"
+  }
+}
